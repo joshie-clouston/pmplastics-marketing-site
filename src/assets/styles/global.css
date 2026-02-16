@@ -1,0 +1,166 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand colours */
+  --color-primary: #DA0D19;
+  --color-primary-light: #FB3C45;
+  --color-primary-foreground: #FFFFFF;
+
+  --color-secondary: #231F20;
+  --color-secondary-foreground: #FFFFFF;
+
+  --color-accent: #FDB813;
+  --color-accent-foreground: #231F20;
+
+  --color-muted: #F5F5F5;
+  --color-muted-foreground: #6B7280;
+
+  --color-background: #FFFFFF;
+  --color-foreground: #231F20;
+
+  --color-border: #E5E7EB;
+
+  --color-success: #16A34A;
+  --color-destructive: #DC2626;
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Animations */
+  --animate-fade-up: fade-up 0.6s ease-out forwards;
+  --animate-fade-in: fade-in 0.6s ease-out forwards;
+  --animate-scale-in: scale-in 0.5s ease-out forwards;
+}
+
+/* Keyframes */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-foreground);
+  background-color: var(--color-background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Animation prep — hidden until triggered */
+[data-animate] {
+  opacity: 0;
+}
+
+[data-animate].animated {
+  opacity: 1;
+}
+
+/* Stagger parent — children animate sequentially */
+[data-animate="stagger"] > * {
+  opacity: 0;
+}
+
+/* Button base */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  line-height: 1;
+  border-radius: 0.5rem;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+}
+.btn-primary:hover {
+  background-color: var(--color-primary-light);
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-foreground);
+}
+.btn-secondary:hover {
+  opacity: 0.9;
+}
+
+.btn-outline {
+  border: 2px solid var(--color-secondary);
+  color: var(--color-secondary);
+  background: transparent;
+}
+.btn-outline:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-foreground);
+}
+
+.btn-ghost {
+  color: var(--color-secondary);
+  background: transparent;
+}
+.btn-ghost:hover {
+  background-color: var(--color-muted);
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.0625rem;
+}
+
+/* Section spacing */
+.section {
+  padding: 5rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: 6rem 2rem;
+  }
+}
+
+.section-dark {
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-foreground);
+}
+
+.container {
+  max-width: 72rem;
+  margin: 0 auto;
+  width: 100%;
+}

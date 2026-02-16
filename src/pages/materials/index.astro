@@ -1,0 +1,59 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export const prerender = true;
+
+const materials = (await getCollection('materials', ({ data }) => !data.draft))
+  .sort((a, b) => a.data.order - b.data.order);
+
+const categoryLabels: Record<string, string> = {
+  perspex: 'Perspex Range',
+  acrylic: 'Acrylic Range',
+  engineering: 'Engineering Plastics',
+  specialty: 'Specialty Products',
+  overview: 'Overview',
+};
+
+const categories = Object.groupBy(materials, (m) => m.data.category);
+---
+<BaseLayout title="Materials" description="Huge range of plastic materials — Perspex, polycarbonate, acrylic, nylon, HDPE, PVC, engineering plastics, and more. P&M Plastics, Gold Coast.">
+  <section class="section bg-secondary text-secondary-foreground">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl sm:text-5xl font-900 tracking-tight mb-4" data-animate="fade-up">Materials</h1>
+      <p class="text-lg text-gray-400 max-w-2xl mx-auto" data-animate="fade-up">
+        One of the largest ranges of plastic materials on the Gold Coast. Cut to size, delivered, or pick up from our Burleigh Heads workshop.
+      </p>
+    </div>
+  </section>
+
+  {Object.entries(categories).map(([category, items]) => (
+    <section class="section bg-white even:bg-muted">
+      <div class="container mx-auto">
+        <h2 class="text-2xl sm:text-3xl font-700 mb-6" data-animate="fade-up">{categoryLabels[category!] || category}</h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4" data-animate="stagger">
+          {items!.map((material) => (
+            <a href={`/materials/${material.id}`} class="group block p-4 rounded-xl border border-border hover:border-primary/30 hover:shadow-lg bg-white transition-all duration-300">
+              <h3 class="font-600 text-base mb-1 group-hover:text-primary transition-colors">{material.data.title}</h3>
+              <p class="text-muted-foreground text-xs leading-relaxed line-clamp-2">{material.data.description}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <section class="section bg-secondary text-secondary-foreground">
+    <div class="container mx-auto text-center">
+      <h2 class="text-2xl sm:text-3xl font-800 mb-4">Need materials cut to size?</h2>
+      <p class="text-gray-400 mb-6 max-w-lg mx-auto">Order online through Perspex Online or visit our workshop.</p>
+      <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <a href="https://perspexonline.com.au" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+          Buy Materials Online
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+        </a>
+        <a href="/quote?type=cut-to-size" class="btn btn-lg border-2 border-gray-600 text-white hover:bg-white/10">Get a Quote</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

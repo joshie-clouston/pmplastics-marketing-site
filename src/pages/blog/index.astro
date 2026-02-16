@@ -1,0 +1,35 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export const prerender = true;
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.publishedDate.valueOf() - a.data.publishedDate.valueOf());
+---
+<BaseLayout title="Blog" description="Guides, tips, and insights on plastic materials, fabrication, and more. P&M Plastics, Gold Coast.">
+  <section class="section bg-secondary text-secondary-foreground">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl sm:text-5xl font-900 tracking-tight mb-4" data-animate="fade-up">Blog</h1>
+      <p class="text-lg text-gray-400 max-w-2xl mx-auto" data-animate="fade-up">
+        Guides, tips, and insights from 30 years in plastic fabrication.
+      </p>
+    </div>
+  </section>
+
+  <section class="section bg-white">
+    <div class="container mx-auto max-w-3xl">
+      <div class="space-y-6" data-animate="stagger">
+        {posts.map((post) => (
+          <a href={`/blog/${post.id}`} class="group block p-6 rounded-xl border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300">
+            <h2 class="font-700 text-xl mb-2 group-hover:text-primary transition-colors">{post.data.title}</h2>
+            <p class="text-muted-foreground text-sm leading-relaxed mb-3">{post.data.description}</p>
+            <time class="text-xs text-muted-foreground">
+              {post.data.publishedDate.toLocaleDateString('en-AU', { year: 'numeric', month: 'long', day: 'numeric' })}
+            </time>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,44 @@
+---
+import { Image } from 'astro:assets';
+import storeImage from '../../assets/images/branding/pm-plastics-store.jpeg';
+---
+<section class="section bg-muted" id="contact">
+  <div class="container mx-auto">
+    <div class="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+      <!-- Copy -->
+      <div data-animate="fade-up">
+        <h2 class="text-3xl sm:text-4xl font-800 tracking-tight mb-4">
+          Ready to Start<br />Your Project?
+        </h2>
+        <p class="text-lg text-muted-foreground mb-6 leading-relaxed">
+          Whether you need a single prototype or a full production run, we'd love to hear from you. Tell us what you need and we'll get back to you with a quote.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-3 mb-8">
+          <a href="/quote" class="btn btn-primary btn-lg">
+            Get a Quote
+          </a>
+          <a href="tel:0755357544" class="btn btn-outline btn-lg">
+            Call 07 5535 7544
+          </a>
+        </div>
+
+        <div class="flex flex-col gap-2 text-sm text-muted-foreground">
+          <p>📍 9 Leda Drive, Burleigh Heads QLD 4220</p>
+          <p>🕐 Mon–Fri: 7:30am – 4:00pm</p>
+        </div>
+      </div>
+
+      <!-- Image -->
+      <div data-animate="scale-in" class="rounded-2xl overflow-hidden shadow-lg">
+        <Image
+          src={storeImage}
+          alt="P&M Plastics workshop in Burleigh Heads"
+          width={600}
+          height={400}
+          class="w-full h-auto object-cover"
+        />
+      </div>
+    </div>
+  </div>
+</section>

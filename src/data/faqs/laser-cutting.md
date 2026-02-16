@@ -1,0 +1,31 @@
+---
+title: "Laser Cutting FAQs"
+description: "Frequently asked questions about laser cutting services at P&M Plastics — materials, tolerances, file formats, and turnaround times for CNC laser cutting on the Gold Coast."
+questions:
+  - question: "What materials can be laser cut?"
+    answer: "We laser cut a wide range of materials including acrylic (Perspex), MDF, plywood, timber veneer, paper, cardboard, fabric, leather, rubber, Corflute, foam PVC, and some thin metals. Polycarbonate is generally not suitable for laser cutting as it tends to discolour and produce a poor edge finish. Contact us if you are unsure whether your material can be laser cut."
+  - question: "What thickness of material can you laser cut?"
+    answer: "Our laser cutting capacity depends on the material. For acrylic and Perspex, we can cut up to approximately 25 mm thick. For MDF and plywood, we typically cut up to 18 mm. Thinner materials such as paper, card, and fabric can be cut in fine detail. Contact us with your specific material and thickness for confirmation."
+  - question: "What file format do you need for laser cutting?"
+    answer: "We accept vector files in formats including AI (Adobe Illustrator), DXF, DWG, EPS, SVG, and PDF. Vector files with clearly defined cut lines produce the best results. If you only have a raster image (JPG, PNG), we can convert it to a vector format for an additional fee. Please ensure all text is converted to outlines or curves before sending your file."
+  - question: "What tolerances can you achieve with laser cutting?"
+    answer: "Our CNC laser cutting achieves tolerances of approximately +/- 0.1 mm on most materials. The actual tolerance can vary depending on the material type, thickness, and geometry of the cut. For precision applications, please discuss your tolerance requirements with our team."
+  - question: "Can you laser cut curved and intricate shapes?"
+    answer: "Yes. Laser cutting excels at intricate, detailed, and curved shapes that would be difficult or impossible to achieve with traditional cutting methods. Fine text, complex patterns, and tight internal radii are all achievable."
+  - question: "What edge finish does laser cutting produce?"
+    answer: "On acrylic and Perspex, laser cutting produces a flame-polished edge — smooth and clear without any additional finishing required. On timber and MDF, the edge will have a slight charred appearance which can be sanded or painted. Edge quality varies by material."
+  - question: "How long does laser cutting take?"
+    answer: "Turnaround times depend on the complexity of the job, material availability, and our current workload. Simple cut-to-size jobs can often be turned around within 1-3 business days. More complex projects with multiple parts or large quantities may take longer. Contact us for an estimated lead time on your specific job."
+  - question: "Is there a minimum order quantity?"
+    answer: "No. We are happy to cut a single piece or a full production run. There is a minimum job charge to cover setup time, but there is no minimum quantity requirement."
+  - question: "Can you laser cut metal?"
+    answer: "Our laser is primarily set up for non-metallic materials — plastics, timber, and sheet goods. We can cut some thin metals (such as aluminium and mild steel up to a limited thickness), but for heavy metal cutting our CNC water jet is generally the better option. Contact us with your requirements and we will recommend the best process."
+  - question: "Do you offer a design service?"
+    answer: "Yes. If you have a concept but no production-ready file, our team can help create the vector artwork needed for laser cutting. We can work from sketches, photos, hand drawings, or verbal descriptions. Design fees apply and are quoted on a per-job basis."
+  - question: "How much does laser cutting cost?"
+    answer: "Pricing depends on the material, thickness, complexity of the cut path, and quantity. Simple rectangular cuts are priced differently to intricate designs with many internal features. Contact us with your file and material requirements for a free quote."
+  - question: "Can you supply the material or do I need to provide it?"
+    answer: "We stock a wide range of materials including acrylic, Perspex, MDF, plywood, foam PVC, Corflute, and more. You are also welcome to supply your own material — just confirm the material type and dimensions with us before dropping it off."
+---
+
+P&M Plastics operates CNC laser cutting equipment at our Burleigh Heads workshop on the Gold Coast. Below are answers to the most common questions we receive about our laser cutting service. If your question is not covered here, get in touch on **07 5535 7544** or request a quote online.

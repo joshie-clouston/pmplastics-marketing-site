@@ -1,0 +1,121 @@
+---
+import '../assets/styles/global.css';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import OrgSchema from '../components/schema/OrgSchema.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+}
+
+const { title, description, canonical } = Astro.props;
+const siteTitle = `${title} | P&M Plastics`;
+const canonicalURL = canonical || new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+
+    <title>{siteTitle}</title>
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={canonicalURL} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={siteTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+
+    <slot name="structured-data" />
+    <OrgSchema />
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <Header />
+    <main class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+
+    <!-- Scroll animations -->
+    <script>
+      import anime from 'animejs';
+
+      function initAnimations() {
+        const elements = document.querySelectorAll('[data-animate]');
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting) return;
+              observer.unobserve(entry.target);
+
+              const el = entry.target as HTMLElement;
+              const type = el.dataset.animate;
+
+              switch (type) {
+                case 'fade-up':
+                  anime({
+                    targets: el,
+                    opacity: [0, 1],
+                    translateY: [30, 0],
+                    duration: 600,
+                    easing: 'easeOutCubic',
+                  });
+                  break;
+
+                case 'fade-in':
+                  anime({
+                    targets: el,
+                    opacity: [0, 1],
+                    duration: 600,
+                    easing: 'easeOutCubic',
+                  });
+                  break;
+
+                case 'scale-in':
+                  anime({
+                    targets: el,
+                    opacity: [0, 1],
+                    scale: [0.9, 1],
+                    duration: 500,
+                    easing: 'easeOutCubic',
+                  });
+                  break;
+
+                case 'stagger':
+                  el.style.opacity = '1';
+                  anime({
+                    targets: el.children,
+                    opacity: [0, 1],
+                    translateY: [20, 0],
+                    delay: anime.stagger(100),
+                    duration: 500,
+                    easing: 'easeOutCubic',
+                  });
+                  break;
+              }
+            });
+          },
+          { threshold: 0.2, rootMargin: '-15% 0px' }
+        );
+
+        elements.forEach((el) => observer.observe(el));
+      }
+
+      document.addEventListener('astro:page-load', initAnimations);
+      initAnimations();
+    </script>
+  </body>
+</html>

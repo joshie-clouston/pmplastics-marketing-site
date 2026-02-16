@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/sections/Hero.astro';
+import Services from '../components/sections/Services.astro';
+import HowItWorks from '../components/sections/HowItWorks.astro';
+import WhyUs from '../components/sections/WhyUs.astro';
+import Materials from '../components/sections/Materials.astro';
+import CTASection from '../components/sections/CTASection.astro';
+import FAQ from '../components/sections/FAQ.astro';
+
+export const prerender = true;
+---
+<BaseLayout
+  title="Custom Plastic Fabrication & Manufacturing — Gold Coast"
+  description="P&M Plastics — 30 years of custom plastic fabrication on the Gold Coast. CNC cutting, laser engraving, vacuum forming, and more. From concept to creation."
+>
+  <Hero />
+  <Services />
+  <HowItWorks />
+  <WhyUs />
+  <Materials />
+  <CTASection />
+  <FAQ />
+</BaseLayout>

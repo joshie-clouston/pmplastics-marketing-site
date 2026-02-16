@@ -1,0 +1,31 @@
+---
+title: "Laser Engraving FAQs"
+description: "Frequently asked questions about 2D laser engraving and etching at P&M Plastics — materials, artwork requirements, and applications for laser engraving on the Gold Coast."
+questions:
+  - question: "What is laser engraving?"
+    answer: "Laser engraving uses a focused laser beam to remove or mark the surface of a material, creating text, images, logos, or patterns. Unlike laser cutting, which passes all the way through the material, engraving only affects the surface — producing a permanent, high-quality mark."
+  - question: "What materials can be laser engraved?"
+    answer: "We can laser engrave acrylic (Perspex), polycarbonate, timber, MDF, plywood, leather, glass, anodised aluminium, painted metals, Corian, rubber, paper, and cardboard. The finish and depth of engraving varies by material. Contact us if you are unsure whether your material can be engraved."
+  - question: "What is the difference between laser engraving and laser etching?"
+    answer: "Laser engraving physically removes material from the surface, creating a visible indentation or cavity. Laser etching marks the surface by changing its colour or texture without significant material removal. Both are permanent, but engraving is deeper and more tactile, while etching is finer and more subtle."
+  - question: "What file format do you need for laser engraving?"
+    answer: "For text and logos, we prefer vector files in AI, DXF, EPS, SVG, or PDF format. For photographic or greyscale engraving, we can work from high-resolution raster images (JPG, PNG, TIFF) — the higher the resolution, the better the result. Minimum recommended resolution is 300 DPI."
+  - question: "Can you engrave photographs onto acrylic or timber?"
+    answer: "Yes. Our laser can reproduce photographic images as greyscale engravings on acrylic, timber, and other compatible materials. The image is converted into a dot pattern (similar to halftone printing) and engraved into the surface. Results are best with high-contrast images at 300 DPI or higher."
+  - question: "How deep can you engrave?"
+    answer: "Engraving depth depends on the material and the number of passes. On acrylic, we typically engrave to a depth of 0.5-2 mm for standard applications. Deeper engraving is possible with additional passes. For most signage and branding applications, a shallow engraving produces the cleanest result."
+  - question: "Can you fill the engraving with colour?"
+    answer: "Yes. A common technique is to engrave into the back of clear acrylic and then fill the engraved area with paint or vinyl. This produces a smooth front surface with colour visible through the material. We can also engrave into coloured acrylic to reveal the contrasting material beneath."
+  - question: "What is reverse engraving?"
+    answer: "Reverse engraving (also called subsurface engraving) involves engraving into the back face of a clear acrylic panel. The engraved area can be left clear, painted, or backlit for a polished, professional look. The front surface remains perfectly smooth and untouched."
+  - question: "What size items can you engrave?"
+    answer: "Our laser bed can accommodate items up to approximately 1200 mm x 900 mm. For larger items, we can engrave in sections or discuss alternative approaches. Small items such as keyrings, nameplates, and tags are also no problem."
+  - question: "How long does laser engraving take?"
+    answer: "Engraving time depends on the size of the engraving area, the level of detail, and the material. A simple text engraving on a small nameplate may take just a few minutes, while a large photographic engraving on a full sheet of acrylic may take several hours. Turnaround is typically 1-5 business days depending on job complexity and our current workload."
+  - question: "What are common applications for laser engraving?"
+    answer: "Common applications include signage, nameplates, awards and trophies, personalised gifts, branding on products, control panels, instrument faces, memorial plaques, directional signage, and decorative panels. Laser engraving is also widely used for serial numbering, barcodes, and asset tags."
+  - question: "How much does laser engraving cost?"
+    answer: "Pricing is based on the engraving area, level of detail, material, and quantity. Simple text engravings are very cost-effective, while large photographic engravings are priced higher due to the additional time required. Contact us with your artwork and requirements for a free quote."
+---
+
+P&M Plastics offers 2D laser engraving and etching services at our Burleigh Heads workshop on the Gold Coast. Below are answers to common questions about our laser engraving capabilities. For anything not covered here, call us on **07 5535 7544** or request a quote online.

@@ -1,0 +1,66 @@
+---
+import { Image } from 'astro:assets';
+import perspex from '../../assets/images/materials/perspex.jpeg';
+import polycarbonate from '../../assets/images/materials/lexan-polycarbonate.jpeg';
+import acrylic from '../../assets/images/materials/euro-mir-acrylic-mirror.jpeg';
+import hdpe from '../../assets/images/materials/hdpe-polyethylene.jpeg';
+
+const materials = [
+  { name: 'Perspex', image: perspex },
+  { name: 'Lexan Polycarbonate', image: polycarbonate },
+  { name: 'Acrylic Mirrors', image: acrylic },
+  { name: 'HDPE Polyethylene', image: hdpe },
+];
+
+const allMaterials = [
+  'Perspex', 'Lexan Polycarbonate', 'Acrylic (sheets, tubes, rods)',
+  'Euro-Mir Acrylic Mirrors', 'PVC', 'HDPE', 'PTFE', 'Nylon',
+  'Polypropylene', 'UHMWPE', 'Corflute', 'Plaspanel', 'ABS', 'HIPS', 'PETG',
+  'Engineering Plastics',
+];
+---
+<section class="section section-dark" id="materials">
+  <div class="container mx-auto">
+    <div class="text-center mb-12" data-animate="fade-up">
+      <h2 class="text-3xl sm:text-4xl font-800 tracking-tight mb-4">Materials</h2>
+      <p class="text-lg text-gray-400 max-w-2xl mx-auto">
+        We stock one of the largest ranges of plastic materials on the Gold Coast. Need it cut to size? Buy online or visit our workshop.
+      </p>
+    </div>
+
+    <!-- Featured materials -->
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-10" data-animate="stagger">
+      {materials.map((material) => (
+        <div class="group relative rounded-xl overflow-hidden aspect-square">
+          <Image
+            src={material.image}
+            alt={material.name}
+            width={300}
+            height={300}
+            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+          <span class="absolute bottom-3 left-3 text-white font-600 text-sm">{material.name}</span>
+        </div>
+      ))}
+    </div>
+
+    <!-- All materials list -->
+    <div class="flex flex-wrap justify-center gap-2 mb-10" data-animate="fade-in">
+      {allMaterials.map((mat) => (
+        <span class="px-3 py-1.5 text-xs font-medium bg-white/10 rounded-full text-gray-300">
+          {mat}
+        </span>
+      ))}
+    </div>
+
+    <!-- CTA -->
+    <div class="text-center" data-animate="fade-up">
+      <a href="https://perspexonline.com.au" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+        Buy Materials Online
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+      </a>
+      <p class="text-sm text-gray-500 mt-3">via Perspex Online — our cut-to-size material store</p>
+    </div>
+  </div>
+</section>

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import SecondaryCTA from '../../components/sections/SecondaryCTA.astro';
 
 export const prerender = true;
 
@@ -32,4 +33,9 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
       </div>
     </div>
   </section>
+
+  <SecondaryCTA
+    heading="Need help with your project?"
+    description="30 years of plastic fabrication expertise at your service."
+  />
 </BaseLayout>

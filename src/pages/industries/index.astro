@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import SecondaryCTA from '../../components/sections/SecondaryCTA.astro';
 
 export const prerender = true;
 
@@ -34,11 +35,8 @@ const industries = (await getCollection('industries', ({ data }) => !data.draft)
     </div>
   </section>
 
-  <section class="section bg-muted">
-    <div class="container mx-auto text-center">
-      <h2 class="text-2xl sm:text-3xl font-800 mb-4">Don't see your industry?</h2>
-      <p class="text-muted-foreground mb-6 max-w-lg mx-auto">We work with every sector. Tell us what you need and we'll figure out the best approach.</p>
-      <a href="/quote" class="btn btn-primary btn-lg">Get a Quote</a>
-    </div>
-  </section>
+  <SecondaryCTA
+    heading="Don't see your industry?"
+    description="We work with every sector. Tell us what you need and we'll figure out the best approach."
+  />
 </BaseLayout>

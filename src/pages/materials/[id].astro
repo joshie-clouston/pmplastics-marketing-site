@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import SecondaryCTA from '../../components/sections/SecondaryCTA.astro';
 
 export const prerender = true;
 
@@ -76,17 +77,13 @@ const { Content } = await render(entry);
     </div>
   </section>
 
-  <section class="section bg-muted">
-    <div class="container mx-auto text-center">
-      <h2 class="text-2xl sm:text-3xl font-800 mb-4">Need {entry.data.title}?</h2>
-      <p class="text-muted-foreground mb-6">Buy online or get a custom quote for your project.</p>
-      <div class="flex flex-col sm:flex-row gap-3 justify-center">
-        <a href="https://perspexonline.com.au" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
-          Buy Online
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
-        </a>
-        <a href="/quote?type=cut-to-size" class="btn btn-outline btn-lg">Get a Quote</a>
-      </div>
-    </div>
-  </section>
+  <SecondaryCTA
+    heading={`Need ${entry.data.title}?`}
+    description="Buy online or get a custom quote for your project."
+    primaryLabel="Buy Online"
+    primaryHref="https://perspexonline.com.au"
+    primaryExternal={true}
+    secondaryLabel="Get a Quote"
+    secondaryHref="/quote?type=cut-to-size"
+  />
 </BaseLayout>

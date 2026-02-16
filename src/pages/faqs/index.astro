@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import StructuredData from '../../components/schema/StructuredData.astro';
+import SecondaryCTA from '../../components/sections/SecondaryCTA.astro';
 
 export const prerender = true;
 
@@ -58,4 +59,9 @@ const allQuestions = faqPages.flatMap((page) =>
       ))}
     </div>
   </section>
+
+  <SecondaryCTA
+    heading="Still have questions?"
+    description="Give us a call or send us a message. We're happy to help."
+  />
 </BaseLayout>

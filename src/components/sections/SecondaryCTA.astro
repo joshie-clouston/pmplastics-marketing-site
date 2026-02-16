@@ -1,0 +1,60 @@
+---
+interface Props {
+  heading?: string;
+  description?: string;
+  quoteType?: string;
+  showPhone?: boolean;
+  primaryLabel?: string;
+  primaryHref?: string;
+  primaryExternal?: boolean;
+  secondaryLabel?: string;
+  secondaryHref?: string;
+}
+
+const {
+  heading = 'Ready to get started?',
+  description = 'Tell us about your project and we\'ll get back to you with a quote.',
+  quoteType,
+  showPhone = true,
+  primaryLabel,
+  primaryHref,
+  primaryExternal = false,
+  secondaryLabel,
+  secondaryHref,
+} = Astro.props;
+
+const defaultQuoteHref = quoteType ? `/quote?type=${encodeURIComponent(quoteType)}` : '/quote';
+const resolvedPrimaryHref = primaryHref || defaultQuoteHref;
+const resolvedPrimaryLabel = primaryLabel || 'Get a Quote';
+const resolvedSecondaryHref = secondaryHref || (showPhone ? 'tel:0755357544' : undefined);
+const resolvedSecondaryLabel = secondaryLabel || (showPhone ? 'Call 07 5535 7544' : undefined);
+---
+<section class="section bg-secondary text-secondary-foreground overflow-hidden relative">
+  <!-- Subtle accent glow -->
+  <div class="absolute top-0 left-1/2 -translate-x-1/2 w-48 h-1 bg-gradient-to-r from-transparent via-primary to-transparent"></div>
+
+  <div class="container mx-auto text-center relative">
+    <h2 class="text-2xl sm:text-3xl font-800 tracking-tight mb-3" data-animate="fade-up">{heading}</h2>
+    <p class="text-gray-400 mb-8 max-w-lg mx-auto leading-relaxed" data-animate="fade-up">{description}</p>
+
+    <div class="flex flex-col sm:flex-row gap-3 justify-center" data-animate="fade-up">
+      <a
+        href={resolvedPrimaryHref}
+        class="btn btn-primary btn-lg"
+        {...(primaryExternal ? { target: '_blank', rel: 'noopener' } : {})}
+      >
+        {resolvedPrimaryLabel}
+        {primaryExternal && (
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+        )}
+      </a>
+      {resolvedSecondaryHref && resolvedSecondaryLabel && (
+        <a href={resolvedSecondaryHref} class="btn btn-lg border-2 border-gray-600 text-white hover:bg-white/10">{resolvedSecondaryLabel}</a>
+      )}
+    </div>
+
+    <p class="text-gray-500 text-sm mt-6" data-animate="fade-in">
+      Mon–Fri 7:30am – 4:00pm &bull; Burleigh Heads, Gold Coast
+    </p>
+  </div>
+</section>

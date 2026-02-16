@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import SecondaryCTA from '../../components/sections/SecondaryCTA.astro';
 
 export const prerender = true;
 
@@ -34,11 +35,8 @@ const galleries = (await getCollection('gallery', ({ data }) => !data.draft))
     </div>
   </section>
 
-  <section class="section bg-muted">
-    <div class="container mx-auto text-center">
-      <h2 class="text-2xl sm:text-3xl font-800 mb-4">Like what you see?</h2>
-      <p class="text-muted-foreground mb-6">Let's talk about your project.</p>
-      <a href="/quote" class="btn btn-primary btn-lg">Get a Quote</a>
-    </div>
-  </section>
+  <SecondaryCTA
+    heading="Like what you see?"
+    description="Let's talk about your project. We'd love to bring your idea to life."
+  />
 </BaseLayout>

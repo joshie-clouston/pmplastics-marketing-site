@@ -60,7 +60,7 @@ const canonicalURL = canonical || new URL(Astro.url.pathname, Astro.site);
       }
 
       async function initAnimations() {
-        let anime: typeof import('animejs').default;
+        let anime: any;
         try {
           anime = (await import('animejs')).default;
         } catch {

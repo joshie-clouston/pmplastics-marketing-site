@@ -298,84 +298,85 @@ const dropdownSections = [
       </button>
     </div>
 
-    <!-- Mobile menu -->
-    <div id="mobile-menu" class="hidden lg:hidden pb-4 border-t border-border mt-2 pt-4">
-      <nav class="flex flex-col gap-1 mb-4">
-        {/* Accordion sections */}
-        {dropdownSections.map((section) => (
-          <div class="mobile-nav-group">
-            <div class="flex items-center">
+  </div>
+
+  <!-- Mobile menu -->
+  <div id="mobile-menu" class="hidden lg:hidden max-h-[calc(100dvh-4rem)] overflow-y-auto border-t border-border">
+    <nav class="flex flex-col gap-1 px-4 pt-4 pb-4">
+      {/* Accordion sections */}
+      {dropdownSections.map((section) => (
+        <div class="mobile-nav-group">
+          <div class="flex items-center">
+            <a
+              href={section.href}
+              class:list={[
+                'flex-1 px-3 py-2.5 text-base font-medium rounded-md transition-colors',
+                currentPath.startsWith(section.href)
+                  ? 'text-primary bg-primary/5'
+                  : 'text-foreground hover:bg-muted',
+              ]}
+            >
+              {section.label}
+            </a>
+            <button
+              class="mobile-accordion-toggle p-2.5 text-muted-foreground hover:text-foreground transition-colors"
+              aria-expanded="false"
+              aria-label={`Expand ${section.label} menu`}
+            >
+              <svg class="w-4 h-4 transition-transform duration-200" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6l4 4 4-4"/></svg>
+            </button>
+          </div>
+          <div class="mobile-accordion-panel hidden pl-4 pb-2">
+            {section.items.map((item) => (
               <a
-                href={section.href}
+                href={item.href}
                 class:list={[
-                  'flex-1 px-3 py-2.5 text-base font-medium rounded-md transition-colors',
-                  currentPath.startsWith(section.href)
+                  'block px-3 py-1.5 text-sm rounded-md transition-colors',
+                  currentPath === item.href
                     ? 'text-primary bg-primary/5'
-                    : 'text-foreground hover:bg-muted',
+                    : 'text-muted-foreground hover:text-foreground hover:bg-muted',
                 ]}
               >
-                {section.label}
+                {item.title}
               </a>
-              <button
-                class="mobile-accordion-toggle p-2.5 text-muted-foreground hover:text-foreground transition-colors"
-                aria-expanded="false"
-                aria-label={`Expand ${section.label} menu`}
-              >
-                <svg class="w-4 h-4 transition-transform duration-200" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6l4 4 4-4"/></svg>
-              </button>
-            </div>
-            <div class="mobile-accordion-panel hidden pl-4 pb-2">
-              {section.items.map((item) => (
-                <a
-                  href={item.href}
-                  class:list={[
-                    'block px-3 py-1.5 text-sm rounded-md transition-colors',
-                    currentPath === item.href
-                      ? 'text-primary bg-primary/5'
-                      : 'text-muted-foreground hover:text-foreground hover:bg-muted',
-                  ]}
-                >
-                  {item.title}
-                </a>
-              ))}
-            </div>
+            ))}
           </div>
-        ))}
+        </div>
+      ))}
 
-        {/* Flat links */}
-        <a
-          href="/about"
-          class:list={[
-            'px-3 py-2.5 text-base font-medium rounded-md transition-colors',
-            currentPath.startsWith('/about')
-              ? 'text-primary bg-primary/5'
-              : 'text-foreground hover:bg-muted',
-          ]}
-        >
-          About
-        </a>
-        <a
-          href="/contact"
-          class:list={[
-            'px-3 py-2.5 text-base font-medium rounded-md transition-colors',
-            currentPath.startsWith('/contact')
-              ? 'text-primary bg-primary/5'
-              : 'text-foreground hover:bg-muted',
-          ]}
-        >
-          Contact
-        </a>
-      </nav>
-      <div class="flex flex-col gap-3 pt-3 border-t border-border">
-        <a href="tel:0755357544" class="text-base font-medium text-foreground px-3 py-2">
-          07 5535 7544
-        </a>
-        <a href="/quote" class="btn btn-outline w-full text-center">Get a Quote</a>
-        <a href="https://perspexonline.com.au" target="_blank" rel="noopener" class="btn btn-primary w-full text-center">
-          Buy Materials Online
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
-        </a>
-      </div>
+      {/* Flat links */}
+      <a
+        href="/about"
+        class:list={[
+          'px-3 py-2.5 text-base font-medium rounded-md transition-colors',
+          currentPath.startsWith('/about')
+            ? 'text-primary bg-primary/5'
+            : 'text-foreground hover:bg-muted',
+        ]}
+      >
+        About
+      </a>
+      <a
+        href="/contact"
+        class:list={[
+          'px-3 py-2.5 text-base font-medium rounded-md transition-colors',
+          currentPath.startsWith('/contact')
+            ? 'text-primary bg-primary/5'
+            : 'text-foreground hover:bg-muted',
+        ]}
+      >
+        Contact
+      </a>
+    </nav>
+    <div class="flex flex-col gap-3 px-4 pt-3 pb-8 border-t border-border">
+      <a href="tel:0755357544" class="text-base font-medium text-foreground px-3 py-2">
+        07 5535 7544
+      </a>
+      <a href="/quote" class="btn btn-outline w-full text-center">Get a Quote</a>
+      <a href="https://perspexonline.com.au" target="_blank" rel="noopener" class="btn btn-primary w-full text-center">
+        Buy Materials Online
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+      </a>
     </div>
   </div>
 </header>

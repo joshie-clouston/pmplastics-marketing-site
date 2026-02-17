@@ -2,7 +2,6 @@ import { defineConfig } from 'astro/config';
 import cloudflare from '@astrojs/cloudflare';
 import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
-import react from '@astrojs/react';
 
 export default defineConfig({
   output: 'server',
@@ -10,7 +9,7 @@ export default defineConfig({
     platformProxy: { enabled: true },
     imageService: 'compile',
   }),
-  integrations: [sitemap(), react()],
+  integrations: [sitemap()],
   vite: {
     plugins: [tailwindcss()],
   },

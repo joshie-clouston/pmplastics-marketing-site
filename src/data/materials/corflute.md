@@ -23,7 +23,7 @@ order: 47
 
 ## What Is Corflute?
 
-Corflute is a fluted polypropylene sheet that resembles corrugated cardboard in structure — outside walls separated by ribs. Also known as fluted poly or extruded twinwall plastic, it is the industry standard for lightweight, durable signage and display applications.
+Corflute is a fluted [polypropylene](/materials/polypropylene-sheet-rod) sheet that resembles corrugated cardboard in structure — outside walls separated by ribs. Also known as fluted poly or extruded twinwall plastic, it is the industry standard for lightweight, durable signage and display applications.
 
 ## Key Properties
 
@@ -48,7 +48,7 @@ Corflute is a fluted polypropylene sheet that resembles corrugated cardboard in 
 
 ## Applications
 
-Corflute is widely used for signage production, printed advertising banners, point-of-sale displays, temporary surface protection, and packaging.
+Corflute is widely used for [signage](/industries/shopfitting-signage) production, printed advertising banners, point-of-sale displays, temporary surface protection, and packaging.
 
 ## Cut-to-Size Service
 

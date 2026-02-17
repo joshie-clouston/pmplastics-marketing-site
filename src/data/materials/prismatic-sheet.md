@@ -39,7 +39,7 @@ Prismatic sheet is a light-diffusing plastic panel featuring a textured prismati
 
 Prismatic sheet is available in both **acrylic** and **polystyrene** variants:
 
-- **Acrylic prismatic:** Higher clarity, better UV resistance, longer lifespan
+- **[Acrylic](/materials/acrylic-sheet) prismatic:** Higher clarity, better UV resistance, longer lifespan
 - **Polystyrene prismatic:** Cost-effective option for indoor applications
 
 ## Available Sizes

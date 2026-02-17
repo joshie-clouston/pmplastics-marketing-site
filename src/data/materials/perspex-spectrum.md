@@ -51,7 +51,7 @@ With excellent UV resistance and a 10-year guarantee, Perspex Spectrum performs 
 ## Key Features
 
 - **Bold, consistent colour** that performs in both daylight and artificial light
-- **Suitable for fabrication and thermoforming** using standard acrylic processing methods
+- **Suitable for fabrication and [thermoforming](/services/plastic-thermo-forming)** using standard acrylic processing methods
 - **Excellent UV resistance** for long-lasting outdoor colour performance
 - **Up to 17 times the impact resistance of glass**
 - **100% recyclable**

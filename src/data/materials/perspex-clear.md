@@ -51,11 +51,11 @@ Perspex Clear (colour code 000) is available in:
 
 - **High gloss hard surface** that resists scratching and maintains its finish
 - **Excellent UV and weather resistance** for long-lasting outdoor performance
-- **Suitable for fabrication and thermoforming** — easily machined, laser cut, and formed
+- **Suitable for fabrication and [thermoforming](/services/plastic-thermo-forming)** — easily machined, [laser cut](/services/cnc-laser-cutting), and formed
 - **30-year guarantee** covering both external and internal applications
 - **100% recyclable** for environmentally responsible projects
 - **Lightweight** compared to glass at roughly half the weight
 
 ## Typical Applications
 
-Perspex Clear is used across a wide range of industries including signage, point-of-sale displays, interior design, boat and caravan windows, machine guards, display cabinets, and architectural glazing. Its combination of optical clarity, impact resistance, and weather performance makes it the benchmark clear acrylic sheet.
+Perspex Clear is used across a wide range of industries including [signage](/industries/shopfitting-signage), point-of-sale displays, interior design, boat and caravan windows, machine guards, display cabinets, and architectural glazing. Its combination of optical clarity, impact resistance, and weather performance makes it the benchmark clear acrylic sheet.

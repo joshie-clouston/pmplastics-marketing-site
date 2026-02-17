@@ -2,6 +2,7 @@
 title: "EuroMir Acrylic Mirror Coloured"
 description: "European-grade coloured acrylic mirror in 18+ colours with gloss and satin finishes — shatter-safe and fabrication-ready."
 headline: "EuroMir Acrylic Mirror Coloured — Gold Coast"
+image: "materials/euro-mir-acrylic-mirror.jpeg"
 category: "acrylic"
 properties:
   - "European-grade acrylic mirror"
@@ -27,7 +28,7 @@ order: 24
 
 ## EuroMir Acrylic Mirror — Coloured Range
 
-EuroMir is a European-grade acrylic mirror available in over 18 colours with both gloss and satin finishes. Featuring one of the industry's toughest back coatings, EuroMir provides excellent resistance to abrasion during fabrication — making it a premium choice for signage, displays, and architectural features.
+EuroMir is a European-grade acrylic mirror available in over 18 colours with both gloss and satin finishes. Featuring one of the industry's toughest back coatings, EuroMir provides excellent resistance to abrasion during fabrication — making it a premium choice for [signage](/industries/shopfitting-signage), displays, and architectural features.
 
 ### Why Choose EuroMir?
 

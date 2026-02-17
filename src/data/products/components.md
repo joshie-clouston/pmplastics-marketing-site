@@ -2,6 +2,7 @@
 title: "Plastic Components"
 description: "Full range of plastic components including hinges, cam locks, extrusions, and fittings — available in clear, white, and black acrylic."
 headline: "Plastic Components — Gold Coast"
+image: "products/custom-fabrication.jpeg"
 features:
   - "Extensive range of hinges, locks, and fittings"
   - "Clear, white, and black UV acrylic options"
@@ -20,7 +21,7 @@ order: 13
 
 ## Plastic Components
 
-P&M Plastics stocks a comprehensive range of plastic components for fabrication, assembly, and finishing. Whether you are building display cases, signage, or custom acrylic projects, we have the fittings you need.
+P&M Plastics stocks a comprehensive range of plastic components for fabrication, assembly, and finishing. Whether you are building display cases, [signage](/industries/shopfitting-signage), or custom [acrylic](/materials/acrylic-sheet) projects, we have the fittings you need.
 
 ### Component Range
 
@@ -52,6 +53,6 @@ P&M Plastics stocks a comprehensive range of plastic components for fabrication,
 - **Door Catch** — clear high-impact acrylic
 - **Key Hole Adapter** — clear acrylic
 - **Round Knob** — decorative component
-- **Self Adhesive Bump-Ons** — clear PVC with adhesive backing
+- **Self Adhesive Bump-Ons** — clear [PVC](/materials/pvc-sheet) with adhesive backing
 
 To enquire about our range of plastic components, contact P&M Plastics on **07 5535 7544** or request a quote online.

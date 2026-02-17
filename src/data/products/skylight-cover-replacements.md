@@ -2,6 +2,7 @@
 title: "Skylight Cover Replacements"
 description: "Custom-cut skylight replacement panels in opal acrylic, prismatic diffuser, and clear acrylic — UV-resistant and delivered Australia-wide."
 headline: "Skylight Cover Replacement Panels Cut to Size"
+image: "products/industrial-fabrication.jpeg"
 features:
   - "Three material options: opal acrylic, K12 prismatic diffuser, and clear acrylic"
   - "UV-stabilised and weather-resistant"
@@ -35,7 +36,7 @@ Provides high clarity for maximum daylight penetration. A lightweight glass alte
 
 ### Applications
 
-- Flat acrylic skylight covers
+- Flat [acrylic](/materials/acrylic-sheet) skylight covers
 - Interior light diffusers
 - Roof hatches
 - Dome skylights (flat panel inserts)

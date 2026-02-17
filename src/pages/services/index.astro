@@ -1,7 +1,11 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import ContentCard from '../../components/ui/ContentCard.astro';
 import SecondaryCTA from '../../components/sections/SecondaryCTA.astro';
+import BreadcrumbSchema from '../../components/schema/BreadcrumbSchema.astro';
+import ItemListSchema from '../../components/schema/ItemListSchema.astro';
+import { resolveImage } from '../../lib/images';
 
 export const prerender = true;
 
@@ -9,6 +13,9 @@ const services = (await getCollection('services', ({ data }) => !data.draft))
   .sort((a, b) => a.data.order - b.data.order);
 ---
 <BaseLayout title="Services" description="Full-service plastic fabrication — CNC cutting, laser engraving, vacuum forming, thermo forming, and more. P&M Plastics, Gold Coast.">
+  <BreadcrumbSchema items={[{ name: 'Services', href: '/services' }]} slot="structured-data" />
+  <ItemListSchema name="Plastic Fabrication Services" description="Full-service plastic fabrication capabilities from P&M Plastics" items={services.map((s) => ({ name: s.data.title, url: `/services/${s.id}` }))} slot="structured-data" />
+
   <section class="section bg-secondary text-secondary-foreground">
     <div class="container mx-auto text-center">
       <h1 class="text-4xl sm:text-5xl font-900 tracking-tight mb-4" data-animate="fade-up">Our Services</h1>
@@ -22,14 +29,12 @@ const services = (await getCollection('services', ({ data }) => !data.draft))
     <div class="container mx-auto">
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6" data-animate="stagger">
         {services.map((service) => (
-          <a href={`/services/${service.id}`} class="group block p-6 rounded-xl border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300">
-            <h2 class="font-700 text-xl mb-2 group-hover:text-primary transition-colors">{service.data.title}</h2>
-            <p class="text-muted-foreground text-sm leading-relaxed mb-4">{service.data.description}</p>
-            <span class="text-primary text-sm font-600 inline-flex items-center gap-1">
-              Learn more
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-            </span>
-          </a>
+          <ContentCard
+            href={`/services/${service.id}`}
+            title={service.data.title}
+            description={service.data.description}
+            image={service.data.image ? resolveImage(service.data.image) : undefined}
+          />
         ))}
       </div>
     </div>

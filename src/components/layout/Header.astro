@@ -1,42 +1,280 @@
 ---
 import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
 import logo from '../../assets/images/logos/pm-plastics-logo-alt.png';
 
-const navLinks = [
-  { label: 'Services', href: '/services' },
-  { label: 'Products', href: '/products' },
-  { label: 'Materials', href: '/materials' },
-  { label: 'Industries', href: '/industries' },
-  { label: 'Gallery', href: '/gallery' },
-  { label: 'About', href: '/about' },
-  { label: 'Contact', href: '/contact' },
+const currentPath = Astro.url.pathname;
+
+const services = (await getCollection('services', ({ data }) => !data.draft))
+  .sort((a, b) => a.data.order - b.data.order);
+
+const products = (await getCollection('products', ({ data }) => !data.draft))
+  .sort((a, b) => a.data.order - b.data.order);
+const productsByCategory = Object.groupBy(products, (p) => p.data.category ?? 'Other');
+const productCategoryOrder = ['Architectural', 'Commercial', 'Domestic', 'Industrial'];
+
+const materials = (await getCollection('materials', ({ data }) => !data.draft && data.category !== 'overview'))
+  .sort((a, b) => a.data.order - b.data.order);
+const materialsByCategory = Object.groupBy(materials, (m) => m.data.category);
+const materialCategoryLabels: Record<string, string> = {
+  perspex: 'Perspex',
+  acrylic: 'Acrylic',
+  engineering: 'Engineering',
+  specialty: 'Specialty',
+};
+const materialCategoryOrder = ['perspex', 'acrylic', 'engineering', 'specialty'] as const;
+
+const industries = (await getCollection('industries', ({ data }) => !data.draft))
+  .sort((a, b) => a.data.order - b.data.order);
+
+const gallery = (await getCollection('gallery', ({ data }) => !data.draft))
+  .sort((a, b) => a.data.order - b.data.order);
+
+/* Dropdown nav sections — used for mobile accordion rendering */
+const dropdownSections = [
+  { label: 'Services', href: '/services', items: services.map((s) => ({ title: s.data.title, href: `/services/${s.id}` })) },
+  { label: 'Products', href: '/products', items: products.map((p) => ({ title: p.data.title, href: `/products/${p.id}` })) },
+  { label: 'Materials', href: '/materials', items: materials.map((m) => ({ title: m.data.title, href: `/materials/${m.id}` })) },
+  { label: 'Industries', href: '/industries', items: industries.map((i) => ({ title: i.data.title, href: `/industries/${i.id}` })) },
+  { label: 'Gallery', href: '/gallery', items: gallery.map((g) => ({ title: g.data.title, href: `/gallery/${g.id}` })) },
 ];
 
-const currentPath = Astro.url.pathname;
 ---
 <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border">
   <div class="container mx-auto px-4 sm:px-6">
-    <div class="flex items-center justify-between h-16 lg:h-20">
+    <div class="flex items-center justify-between h-16 lg:h-20 relative">
       <!-- Logo -->
       <a href="/" class="flex-shrink-0">
         <Image src={logo} alt="P&M Plastics" width={140} height={50} class="h-10 lg:h-12 w-auto" />
       </a>
 
       <!-- Desktop nav -->
-      <nav class="hidden lg:flex items-center gap-1">
-        {navLinks.map((link) => (
+      <nav class="hidden lg:flex items-center self-stretch gap-0.5">
+        <!-- Services dropdown -->
+        <div class="relative group flex items-center self-stretch">
           <a
-            href={link.href}
+            href="/services"
             class:list={[
-              'px-3 py-2 text-sm font-medium rounded-md transition-colors',
-              currentPath.startsWith(link.href)
+              'inline-flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-md transition-colors',
+              currentPath.startsWith('/services')
                 ? 'text-primary bg-primary/5'
                 : 'text-foreground hover:text-primary hover:bg-muted',
             ]}
           >
-            {link.label}
+            Services
+            <svg class="w-3.5 h-3.5 opacity-50" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6l4 4 4-4"/></svg>
           </a>
-        ))}
+          <div class="nav-dropdown-panel hidden group-hover:block group-focus-within:block absolute top-full left-0 pt-1 z-50">
+            <div class="bg-white rounded-xl shadow-xl border border-border py-2 min-w-[240px]">
+              {services.map((s) => (
+                <a
+                  href={`/services/${s.id}`}
+                  class:list={[
+                    'block px-4 py-1.5 text-sm transition-colors',
+                    currentPath === `/services/${s.id}`
+                      ? 'text-primary bg-primary/5'
+                      : 'text-foreground hover:text-primary hover:bg-muted',
+                  ]}
+                >
+                  {s.data.title}
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <!-- Products mega-menu -->
+        <div class="group static flex items-center self-stretch">
+          <a
+            href="/products"
+            class:list={[
+              'inline-flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-md transition-colors',
+              currentPath.startsWith('/products')
+                ? 'text-primary bg-primary/5'
+                : 'text-foreground hover:text-primary hover:bg-muted',
+            ]}
+          >
+            Products
+            <svg class="w-3.5 h-3.5 opacity-50" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6l4 4 4-4"/></svg>
+          </a>
+          <div class="nav-dropdown-panel hidden group-hover:block group-focus-within:block absolute top-full inset-x-0 pt-1 z-50">
+            <div class="bg-white rounded-xl shadow-xl border border-border p-5 w-[780px] max-w-[calc(100%-2rem)] mx-auto">
+              <div class="grid grid-cols-4 gap-x-5">
+                {productCategoryOrder.map((cat) => {
+                  const items = productsByCategory[cat];
+                  if (!items?.length) return null;
+                  return (
+                    <div>
+                      <div class="text-xs font-semibold uppercase tracking-wider text-muted-foreground pb-2 mb-2 border-b border-border">
+                        {cat}
+                      </div>
+                      <div class="space-y-0.5">
+                        {items.map((p) => (
+                          <a
+                            href={`/products/${p.id}`}
+                            class:list={[
+                              'block py-1 text-sm transition-colors leading-tight',
+                              currentPath === `/products/${p.id}`
+                                ? 'text-primary font-medium'
+                                : 'text-foreground hover:text-primary',
+                            ]}
+                          >
+                            {p.data.title}
+                          </a>
+                        ))}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Materials mega-menu -->
+        <div class="group static flex items-center self-stretch">
+          <a
+            href="/materials"
+            class:list={[
+              'inline-flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-md transition-colors',
+              currentPath.startsWith('/materials')
+                ? 'text-primary bg-primary/5'
+                : 'text-foreground hover:text-primary hover:bg-muted',
+            ]}
+          >
+            Materials
+            <svg class="w-3.5 h-3.5 opacity-50" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6l4 4 4-4"/></svg>
+          </a>
+          <div class="nav-dropdown-panel hidden group-hover:block group-focus-within:block absolute top-full inset-x-0 pt-1 z-50">
+            <div class="bg-white rounded-xl shadow-xl border border-border p-5 w-[780px] max-w-[calc(100%-2rem)] mx-auto">
+              <div class="grid grid-cols-4 gap-x-5">
+                {materialCategoryOrder.map((cat) => {
+                  const items = materialsByCategory[cat];
+                  if (!items?.length) return null;
+                  return (
+                    <div>
+                      <div class="text-xs font-semibold uppercase tracking-wider text-muted-foreground pb-2 mb-2 border-b border-border">
+                        {materialCategoryLabels[cat]}
+                      </div>
+                      <div class="space-y-0.5">
+                        {items.map((m) => (
+                          <a
+                            href={`/materials/${m.id}`}
+                            class:list={[
+                              'block py-1 text-sm transition-colors leading-tight',
+                              currentPath === `/materials/${m.id}`
+                                ? 'text-primary font-medium'
+                                : 'text-foreground hover:text-primary',
+                            ]}
+                          >
+                            {m.data.title}
+                          </a>
+                        ))}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+              <div class="mt-3 pt-3 border-t border-border">
+                <a href="/materials" class="text-sm font-medium text-primary hover:text-primary-light transition-colors">
+                  View all materials &rarr;
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Industries dropdown -->
+        <div class="relative group flex items-center self-stretch">
+          <a
+            href="/industries"
+            class:list={[
+              'inline-flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-md transition-colors',
+              currentPath.startsWith('/industries')
+                ? 'text-primary bg-primary/5'
+                : 'text-foreground hover:text-primary hover:bg-muted',
+            ]}
+          >
+            Industries
+            <svg class="w-3.5 h-3.5 opacity-50" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6l4 4 4-4"/></svg>
+          </a>
+          <div class="nav-dropdown-panel hidden group-hover:block group-focus-within:block absolute top-full left-0 pt-1 z-50">
+            <div class="bg-white rounded-xl shadow-xl border border-border py-2 min-w-[220px]">
+              {industries.map((i) => (
+                <a
+                  href={`/industries/${i.id}`}
+                  class:list={[
+                    'block px-4 py-1.5 text-sm transition-colors',
+                    currentPath === `/industries/${i.id}`
+                      ? 'text-primary bg-primary/5'
+                      : 'text-foreground hover:text-primary hover:bg-muted',
+                  ]}
+                >
+                  {i.data.title}
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery dropdown -->
+        <div class="relative group flex items-center self-stretch">
+          <a
+            href="/gallery"
+            class:list={[
+              'inline-flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-md transition-colors',
+              currentPath.startsWith('/gallery')
+                ? 'text-primary bg-primary/5'
+                : 'text-foreground hover:text-primary hover:bg-muted',
+            ]}
+          >
+            Gallery
+            <svg class="w-3.5 h-3.5 opacity-50" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6l4 4 4-4"/></svg>
+          </a>
+          <div class="nav-dropdown-panel hidden group-hover:block group-focus-within:block absolute top-full right-0 pt-1 z-50">
+            <div class="bg-white rounded-xl shadow-xl border border-border py-2 min-w-[240px]">
+              {gallery.map((g) => (
+                <a
+                  href={`/gallery/${g.id}`}
+                  class:list={[
+                    'block px-4 py-1.5 text-sm transition-colors',
+                    currentPath === `/gallery/${g.id}`
+                      ? 'text-primary bg-primary/5'
+                      : 'text-foreground hover:text-primary hover:bg-muted',
+                  ]}
+                >
+                  {g.data.title}
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <!-- About (flat) -->
+        <a
+          href="/about"
+          class:list={[
+            'px-3 py-2 text-sm font-medium rounded-md transition-colors',
+            currentPath.startsWith('/about')
+              ? 'text-primary bg-primary/5'
+              : 'text-foreground hover:text-primary hover:bg-muted',
+          ]}
+        >
+          About
+        </a>
+
+        <!-- Contact (flat) -->
+        <a
+          href="/contact"
+          class:list={[
+            'px-3 py-2 text-sm font-medium rounded-md transition-colors',
+            currentPath.startsWith('/contact')
+              ? 'text-primary bg-primary/5'
+              : 'text-foreground hover:text-primary hover:bg-muted',
+          ]}
+        >
+          Contact
+        </a>
       </nav>
 
       <!-- Desktop CTAs -->
@@ -63,19 +301,70 @@ const currentPath = Astro.url.pathname;
     <!-- Mobile menu -->
     <div id="mobile-menu" class="hidden lg:hidden pb-4 border-t border-border mt-2 pt-4">
       <nav class="flex flex-col gap-1 mb-4">
-        {navLinks.map((link) => (
-          <a
-            href={link.href}
-            class:list={[
-              'px-3 py-2.5 text-base font-medium rounded-md transition-colors',
-              currentPath.startsWith(link.href)
-                ? 'text-primary bg-primary/5'
-                : 'text-foreground hover:bg-muted',
-            ]}
-          >
-            {link.label}
-          </a>
+        {/* Accordion sections */}
+        {dropdownSections.map((section) => (
+          <div class="mobile-nav-group">
+            <div class="flex items-center">
+              <a
+                href={section.href}
+                class:list={[
+                  'flex-1 px-3 py-2.5 text-base font-medium rounded-md transition-colors',
+                  currentPath.startsWith(section.href)
+                    ? 'text-primary bg-primary/5'
+                    : 'text-foreground hover:bg-muted',
+                ]}
+              >
+                {section.label}
+              </a>
+              <button
+                class="mobile-accordion-toggle p-2.5 text-muted-foreground hover:text-foreground transition-colors"
+                aria-expanded="false"
+                aria-label={`Expand ${section.label} menu`}
+              >
+                <svg class="w-4 h-4 transition-transform duration-200" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6l4 4 4-4"/></svg>
+              </button>
+            </div>
+            <div class="mobile-accordion-panel hidden pl-4 pb-2">
+              {section.items.map((item) => (
+                <a
+                  href={item.href}
+                  class:list={[
+                    'block px-3 py-1.5 text-sm rounded-md transition-colors',
+                    currentPath === item.href
+                      ? 'text-primary bg-primary/5'
+                      : 'text-muted-foreground hover:text-foreground hover:bg-muted',
+                  ]}
+                >
+                  {item.title}
+                </a>
+              ))}
+            </div>
+          </div>
         ))}
+
+        {/* Flat links */}
+        <a
+          href="/about"
+          class:list={[
+            'px-3 py-2.5 text-base font-medium rounded-md transition-colors',
+            currentPath.startsWith('/about')
+              ? 'text-primary bg-primary/5'
+              : 'text-foreground hover:bg-muted',
+          ]}
+        >
+          About
+        </a>
+        <a
+          href="/contact"
+          class:list={[
+            'px-3 py-2.5 text-base font-medium rounded-md transition-colors',
+            currentPath.startsWith('/contact')
+              ? 'text-primary bg-primary/5'
+              : 'text-foreground hover:bg-muted',
+          ]}
+        >
+          Contact
+        </a>
       </nav>
       <div class="flex flex-col gap-3 pt-3 border-t border-border">
         <a href="tel:0755357544" class="text-base font-medium text-foreground px-3 py-2">
@@ -92,23 +381,42 @@ const currentPath = Astro.url.pathname;
 </header>
 
 <script>
-  function initMobileMenu() {
+  function initHeader() {
+    /* Mobile menu toggle */
     const btn = document.getElementById('mobile-menu-btn');
     const menu = document.getElementById('mobile-menu');
     const iconOpen = document.getElementById('menu-icon-open');
     const iconClose = document.getElementById('menu-icon-close');
 
-    if (!btn || !menu || !iconOpen || !iconClose) return;
+    if (btn && menu && iconOpen && iconClose) {
+      btn.addEventListener('click', () => {
+        const isOpen = !menu.classList.contains('hidden');
+        menu.classList.toggle('hidden');
+        iconOpen.classList.toggle('hidden');
+        iconClose.classList.toggle('hidden');
+        btn.setAttribute('aria-expanded', String(!isOpen));
+      });
+    }
 
-    btn.addEventListener('click', () => {
-      const isOpen = !menu.classList.contains('hidden');
-      menu.classList.toggle('hidden');
-      iconOpen.classList.toggle('hidden');
-      iconClose.classList.toggle('hidden');
-      btn.setAttribute('aria-expanded', String(!isOpen));
+    /* Mobile accordion toggles */
+    document.querySelectorAll('.mobile-accordion-toggle').forEach((toggle) => {
+      toggle.addEventListener('click', () => {
+        const group = toggle.closest('.mobile-nav-group');
+        const panel = group?.querySelector('.mobile-accordion-panel');
+        if (!panel) return;
+
+        const isOpen = !panel.classList.contains('hidden');
+        panel.classList.toggle('hidden');
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+
+        const chevron = toggle.querySelector('svg');
+        if (chevron) {
+          chevron.style.transform = isOpen ? '' : 'rotate(180deg)';
+        }
+      });
     });
   }
 
-  document.addEventListener('astro:page-load', initMobileMenu);
-  initMobileMenu();
+  document.addEventListener('astro:page-load', initHeader);
+  initHeader();
 </script>

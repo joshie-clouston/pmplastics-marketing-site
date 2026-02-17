@@ -2,6 +2,16 @@
 title: "Sneeze Guard Installations"
 description: "Sneeze guard installation examples from P&M Plastics — custom acrylic and polycarbonate protective screens for retail, hospitality, and commercial environments."
 order: 8
+image: "gallery/sneeze-guards/sneeze-guard-01.png"
+images:
+  - { src: "gallery/sneeze-guards/sneeze-guard-01.png", alt: "Perspex sneeze guard" }
+  - { src: "gallery/sneeze-guards/sneeze-guard-02.jpg", alt: "Custom sneeze guard" }
+  - { src: "gallery/sneeze-guards/sneeze-guard-03.png", alt: "Sneeze guard installation" }
+  - { src: "gallery/sneeze-guards/sneeze-guard-04.jpg", alt: "Acrylic sneeze guard" }
+  - { src: "gallery/sneeze-guards/sneeze-guard-05.jpg", alt: "Point of sale sneeze guard" }
+  - { src: "gallery/sneeze-guards/sneeze-guard-06.jpeg", alt: "Custom sneeze guard" }
+  - { src: "gallery/sneeze-guards/sneeze-guard-07.jpg", alt: "Sneeze guard" }
+  - { src: "gallery/sneeze-guards/sneeze-guard-08.png", alt: "Perspex sneeze guard" }
 ---
 
 ## Sneeze Guard Installations Gallery
@@ -28,9 +38,9 @@ For bespoke sneeze guards, we work from your measurements including base depth, 
 
 ### Material Options
 
-- **Acrylic** — lightweight, optically clear, and cost-effective
-- **Perspex** — premium branded cast acrylic with exceptional clarity
-- **Polycarbonate (Lexan)** — virtually unbreakable for high-traffic environments
+- **[Acrylic](/materials/acrylic-sheet)** — lightweight, optically clear, and cost-effective
+- **[Perspex](/materials/perspex)** — premium branded cast acrylic with exceptional clarity
+- **[Polycarbonate](/materials/polycarbonate) (Lexan)** — virtually unbreakable for high-traffic environments
 - **Plexiglass** — durable thermoplastic with superior light transmission
 
 ### Thickness Options
@@ -41,5 +51,3 @@ All guards are available in clear finish:
 - 4.5 mm — standard commercial use
 - 6 mm — heavy-duty environments
 - 8 mm — maximum durability
-
-*Gallery images coming soon. Contact us on **07 5535 7544** to see examples of our work.*

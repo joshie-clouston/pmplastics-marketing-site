@@ -2,6 +2,7 @@
 title: "Custom Liquid Transport Tanks"
 description: "Custom HDPE liquid transport tanks for emergency vehicles and mobile applications — 200L to 4,000L, built tough for Australian conditions."
 headline: "Custom Liquid Transport Tanks for Emergency Vehicles"
+image: "products/transportation-tanks.jpeg"
 features:
   - "Custom capacities from 200L to 4,000L"
   - "Durable HDPE construction — lightweight, corrosion-resistant, UV-stable"
@@ -26,7 +27,7 @@ order: 14
 
 Built tough for mobile water delivery — from 200L to 4,000L. P&M Plastics designs and manufactures high-performance water transport tanks tailored for emergency vehicles and mobile applications.
 
-Our tanks are built from black HDPE (High-Density Polyethylene) and engineered to withstand tough Australian conditions. We supply tanks for fire trucks, emergency response vehicles, and utility fleets.
+Our tanks are built from black [HDPE](/materials/hdpe) (High-Density Polyethylene) and engineered to withstand tough Australian conditions. We supply tanks for fire trucks, emergency response vehicles, and utility fleets.
 
 ### Key Features
 
@@ -40,7 +41,7 @@ Our tanks are built from black HDPE (High-Density Polyethylene) and engineered t
 
 ### Why Choose P&M Plastics
 
-- Decades of plastic fabrication experience
+- Decades of [plastic fabrication](/services/plastic-fabrication) experience
 - Proven track record supplying government and private fleets
 - Fast turnaround with excellent service
 - Custom fit with extended lifespan

@@ -2,6 +2,7 @@
 title: "Sneeze Guards"
 description: "Custom acrylic and polycarbonate sneeze guards for retail point of sale — manufactured to any size on the Gold Coast."
 headline: "Custom Sneeze Guards — Gold Coast"
+image: "gallery/sneeze-guards/sneeze-guard-01.png"
 features:
   - "Available in acrylic, Perspex, polycarbonate, and plexiglass"
   - "Thickness options: 3mm, 4.5mm, 6mm, and 8mm clear"
@@ -20,15 +21,15 @@ order: 1
 
 ## Perspex Sneeze Guards for Retail and Commercial Use
 
-P&M Plastics manufactures all types and sizes of sneeze guards to suit your retail point of sale. Perspex screens provide protection from airborne diseases while offering reassurance to both staff and customers.
+P&M Plastics manufactures all types and sizes of sneeze guards to suit your retail point of sale. [Perspex](/materials/perspex) screens provide protection from airborne diseases while offering reassurance to both staff and customers.
 
 ### Material Options
 
 We offer sneeze guards in a range of high-quality materials:
 
-- **Acrylic** — lightweight, optically clear, and cost-effective
+- **[Acrylic](/materials/acrylic-sheet)** — lightweight, optically clear, and cost-effective
 - **Perspex** — premium branded acrylic with excellent clarity
-- **Polycarbonate (Lexan)** — virtually unbreakable for high-traffic environments
+- **[Polycarbonate](/materials/polycarbonate) (Lexan)** — virtually unbreakable for high-traffic environments
 - **Plexiglass** — durable thermoplastic with superior light transmission
 
 ### Size Configurations

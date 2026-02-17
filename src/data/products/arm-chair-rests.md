@@ -22,7 +22,7 @@ The ideal rest that clips over the edge of your lounge chair, giving you a flat,
 
 ### Features
 
-- **Material**: Durable 4.5mm clear acrylic
+- **Material**: Durable 4.5mm clear [acrylic](/materials/acrylic-sheet)
 - **Mounting**: Simply clips over the arm of your chair — no tools required
 - **Maintenance**: Easy to clean with a soft cloth and mild detergent
 

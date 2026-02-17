@@ -2,6 +2,7 @@
 title: "CNC Laser Cutting"
 description: "CNC laser cutting on the Gold Coast — precision cuts in acrylic, timber, and metals with bed sizes up to 1500 x 3000 mm. Est. 1991."
 headline: "CNC Laser Cutting — Gold Coast"
+image: "services/cnc-laser-cutting.jpeg"
 features:
   - "State-of-the-art CNC laser cutting machinery"
   - "Cutting bed capacity up to 1500 x 3000 mm"
@@ -30,7 +31,7 @@ P&M Plastics provides CNC laser cutting services using state-of-the-art machiner
 
 Our laser cutting capability covers a broad range of materials:
 
-- **Plastics** — acrylic, engineering plastics, and specialty materials (up to 30 mm thickness)
+- **Plastics** — [acrylic](/materials/acrylic-sheet), engineering plastics, and specialty materials (up to 30 mm thickness)
 - **Timber** — MDF and plywood (up to 25 mm thickness)
 - **Metals** — chrome alloy, titanium, Bisalloy, aluminium, and stainless steel
 

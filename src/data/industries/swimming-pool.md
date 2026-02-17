@@ -31,7 +31,7 @@ Council swimming pool regulations require that power outlets, switches, and taps
 
 ### Our Solution
 
-We designed purpose-built safety covers constructed from **3 mm clear UV polycarbonate** — an unbreakable, weather-resistant material that stands up to the harsh Australian outdoor environment.
+We designed purpose-built safety covers constructed from **3 mm clear UV [polycarbonate](/materials/polycarbonate)** — an unbreakable, weather-resistant material that stands up to the harsh Australian outdoor environment.
 
 #### Key Features
 

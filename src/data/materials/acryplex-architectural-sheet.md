@@ -23,13 +23,13 @@ order: 34
 
 ## Acryplex Hi Gloss — Premium Architectural Sheet
 
-Acryplex Hi Gloss is the latest development in premium PMMA sheet by P&M Plastics. Ideal for creating outstanding high gloss signage, point-of-sale display units, office partitioning, and anywhere a superior depth of colour and gloss is required.
+Acryplex Hi Gloss is the latest development in premium PMMA sheet by P&M Plastics. Ideal for creating outstanding high gloss [signage](/industries/shopfitting-signage), point-of-sale display units, office partitioning, and anywhere a superior depth of colour and gloss is required.
 
 ### Why Choose Acryplex?
 
 - **Colour through the sheet** — integrated within the material, not sprayed or laminated
 - **Superior gloss** — premium PMMA resins deliver exceptional colour depth and shine
-- **Fabrication-friendly** — cut, bend, drape mould, or vacuum form without cracking or peeling
+- **Fabrication-friendly** — cut, bend, drape mould, or [vacuum form](/services/cnc-vacuum-forming) without cracking or peeling
 - **Durable** — built to maintain its finish in commercial environments
 - **Custom options** — bespoke colours, gauges, and sheet sizes available
 

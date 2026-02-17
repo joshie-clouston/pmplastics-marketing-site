@@ -19,15 +19,15 @@ order: 5
 
 ## Custom Laser-Cut House Letters and Numbers
 
-With over 1,000 fonts to choose from, P&M Plastics can laser cut any material, any thickness, to any size. Our custom house numbers and letters give your home or business a distinctive, professional look.
+With over 1,000 fonts to choose from, P&M Plastics can [laser cut](/services/cnc-laser-cutting) any material, any thickness, to any size. Our custom house numbers and letters give your home or business a distinctive, professional look.
 
 ### Material Options
 
 - **316 Stainless Steel** — premium corrosion-resistant finish for coastal environments
 - **Wood** — natural, warm aesthetic
-- **Clear Acrylic** — modern and minimalist
+- **Clear [Acrylic](/materials/acrylic-sheet)** — modern and minimalist
 - **Coloured Acrylic** — bold, eye-catching finishes
-- **PVC** — durable and weather-resistant
+- **[PVC](/materials/pvc-sheet)** — durable and weather-resistant
 
 ### Precision Laser Cutting
 

@@ -25,7 +25,7 @@ order: 21
 
 ## Acrylic Cut to Size — Custom Perspex Cutting
 
-Perspex, otherwise known as acrylic, is well known for its crystal clarity, impact resistance, and excellent weather ability. Our cut-to-size service delivers acrylic sheet precision-cut to your exact dimensions.
+[Perspex](/materials/perspex), otherwise known as acrylic, is well known for its crystal clarity, impact resistance, and excellent weather ability. Our cut-to-size service delivers acrylic sheet precision-cut to your exact dimensions.
 
 ### Why Choose Our Cut-to-Size Service?
 

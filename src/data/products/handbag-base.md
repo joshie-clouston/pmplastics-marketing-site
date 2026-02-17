@@ -18,7 +18,7 @@ order: 10
 
 ## Perspex Handbag Base
 
-Soft-based handbags tend to sag in the centre, losing their shape and making it harder to find your belongings. P&M Plastics manufactures custom Perspex inserts designed to prevent this sagging and keep your bag looking its best.
+Soft-based handbags tend to sag in the centre, losing their shape and making it harder to find your belongings. P&M Plastics manufactures custom [Perspex](/materials/perspex) inserts designed to prevent this sagging and keep your bag looking its best.
 
 ### How It Works
 

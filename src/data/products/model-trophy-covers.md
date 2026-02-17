@@ -19,13 +19,13 @@ order: 9
 
 ## Perspex Model and Trophy Covers
 
-Protect your model car, boat, or trophy from dust — place a clear Perspex cover over them. Each cover is custom-made to order, ensuring a perfect fit for your prized possessions.
+Protect your model car, boat, or trophy from dust — place a clear [Perspex](/materials/perspex) cover over them. Each cover is custom-made to order, ensuring a perfect fit for your prized possessions.
 
 ### Specifications
 
 - **Material**: 3mm or 4.5mm clear Perspex
 - **Base options**: Perspex base or wooden base included
-- **Engraving**: Name plates and inscriptions available
+- **[Engraving](/services/2d-laser-engraving-etching)**: Name plates and inscriptions available
 
 ### Custom Sizing
 

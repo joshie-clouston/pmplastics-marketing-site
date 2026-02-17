@@ -24,7 +24,7 @@ order: 48
 
 ## What Is Plaspanel?
 
-Plaspanel is a polypropylene honeycomb-core sheet that delivers exceptional rigidity at a fraction of the weight of solid plastic sheet. Its closed-cell structure makes it completely moisture-proof and highly chemical resistant, making it ideal for both indoor and outdoor applications.
+Plaspanel is a [polypropylene](/materials/polypropylene-sheet-rod) honeycomb-core sheet that delivers exceptional rigidity at a fraction of the weight of solid plastic sheet. Its closed-cell structure makes it completely moisture-proof and highly chemical resistant, making it ideal for both indoor and outdoor applications.
 
 ## Key Properties
 
@@ -46,7 +46,7 @@ Plaspanel is a polypropylene honeycomb-core sheet that delivers exceptional rigi
 
 ## Applications
 
-Plaspanel is commonly used for signage, point-of-sale displays, construction hoarding, packaging, wall linings, and partition panels.
+Plaspanel is commonly used for [signage](/industries/shopfitting-signage), point-of-sale displays, construction hoarding, packaging, wall linings, and partition panels.
 
 ## Cut-to-Size Service
 

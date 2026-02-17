@@ -164,3 +164,13 @@ body {
   margin: 0 auto;
   width: 100%;
 }
+
+/* Nav dropdown bridge — prevents hover-gap from closing menus */
+.nav-dropdown-panel::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  right: 0;
+  height: 4px;
+}

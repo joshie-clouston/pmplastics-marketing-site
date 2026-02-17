@@ -2,6 +2,7 @@
 title: "HDPE"
 description: "HDPE sheet and rod — high-density polyethylene with excellent chemical resistance and abrasion resistance. Cut to size, Gold Coast."
 headline: "HDPE Sheet & Rod — Gold Coast"
+image: "materials/hdpe-polyethylene.jpeg"
 category: "engineering"
 properties:
   - "Good impact resistance"
@@ -66,7 +67,7 @@ HDPE (High Density Polyethylene) is a very rigid material used in general plant 
 
 ## Applications
 
-HDPE is commonly used for machine guards, water tanks, chemical tanks, cutting boards, pipe fittings, and component parts.
+HDPE is commonly used for machine guards, [custom liquid transport tanks](/products/custom-liquid-transport-tanks), chemical tanks, cutting boards, pipe fittings, and component parts.
 
 ## Cut-to-Size Service
 

@@ -50,7 +50,7 @@ Six pearlescent colour options are available, ranging from natural subtle metall
 - **Metallic shimmer** — contains real metallic content for authentic pearlescent effects
 - **Angle-dependent appearance** — shifts subtly with changes in light and viewing position
 - **Six aesthetic colours** from natural tones to bold metallics
-- **Suitable for fabrication and thermoforming** using standard acrylic processing
+- **Suitable for fabrication and [thermoforming](/services/plastic-thermo-forming)** using standard acrylic processing
 - **Up to 17 times the impact resistance of glass**
 - **10-year internal guarantee**
 

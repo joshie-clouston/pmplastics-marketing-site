@@ -2,6 +2,7 @@
 title: "Plastic Thermoforming"
 description: "Plastic thermoforming on the Gold Coast — thin and thick gauge forming for components up to 3 x 2.5 metres. Australia-wide service."
 headline: "Plastic Thermoforming — Gold Coast"
+image: "services/thermoformed-boat-screens.jpg"
 features:
   - "Multiple specialised thermoforming ovens with various jig and plate sizes"
   - "Components up to 3 x 2.5 metres"
@@ -33,11 +34,11 @@ The process heats thermoplastic material until it reaches a pre-set melt flow in
 
 We thermoform a range of thermoplastic materials:
 
-- Acrylic
-- Perspex
+- [Acrylic](/materials/acrylic-sheet)
+- [Perspex](/materials/perspex)
 - High Impact Acrylic
 - Polyethylene
-- Polypropylene
+- [Polypropylene](/materials/polypropylene-sheet-rod)
 - ABS (Acrylonitrile Butadiene Styrene)
 - ASA (Acrylic Styrene Acrylonitrile)
 
@@ -69,11 +70,11 @@ Thick-gauge thermoforming produces robust, structural components:
 
 ## Tooling and Prototyping
 
-- **Prototypes** — wood or MDF tools manufactured in-house using our 3D CNC routers
+- **Prototypes** — wood or MDF tools manufactured in-house using our 3D [CNC routers](/services/cnc-router-cutting)
 - **Production tooling** — manufactured from fibreglass or aluminium epoxy for long-run durability
 
 ## Why Choose Thermoforming?
 
-Thermoforming is fast, cost-effective, and highly versatile compared to other plastic fabrication methods. Thermoformed plastics can also be recycled depending on the material used, making it an environmentally conscious choice for many applications.
+Thermoforming is fast, cost-effective, and highly versatile compared to other [plastic fabrication](/services/plastic-fabrication) methods. Thermoformed plastics can also be recycled depending on the material used, making it an environmentally conscious choice for many applications.
 
 Contact P&M Plastics on **07 5535 7544** or request a free quote for your thermoforming project.

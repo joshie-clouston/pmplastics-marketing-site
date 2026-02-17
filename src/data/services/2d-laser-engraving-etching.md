@@ -2,6 +2,7 @@
 title: "2D Laser Engraving & Etching"
 description: "2D laser engraving and etching on the Gold Coast — custom logos, text, and graphics on metals, plastics, timber, and laminates."
 headline: "2D Laser Engraving & Etching — Gold Coast"
+image: "services/2d-laser-engraving-business-card.jpg"
 features:
   - "Engrave graphics, logos, text, and custom designs"
   - "Over 35,000 fonts and a library of images available"
@@ -32,7 +33,7 @@ Our 2D laser engraving works across a wide range of materials:
 
 - **Metals** — bronze, aluminium, steel
 - **Timber** — solid wood, MDF, veneer
-- **Plastics** — acrylic, Perspex, and engineering plastics
+- **Plastics** — [acrylic](/materials/acrylic-sheet), [Perspex](/materials/perspex), and engineering plastics
 - **Laminates** — Gravograph 2–4 colour laminates up to 3 mm
 
 ## Design Capabilities

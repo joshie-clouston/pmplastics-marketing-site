@@ -58,7 +58,7 @@ Designed for retail and interior applications, Perspex Naturals brings organic w
 ## Key Features
 
 - **Double-sided matt finish** for a consistent natural stone appearance
-- **Texture retained after thermoforming** — fabricate with confidence
+- **Texture retained after [thermoforming](/services/plastic-thermo-forming)** — fabricate with confidence
 - **Strong and hard-wearing** — built for demanding environments
 - **Excellent UV resistance** suitable for outdoor applications
 - **Up to 17 times the impact resistance of glass**

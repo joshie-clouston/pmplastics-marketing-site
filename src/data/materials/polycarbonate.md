@@ -2,6 +2,7 @@
 title: "Polycarbonate"
 description: "Polycarbonate sheet — 250x stronger than glass. Impact-resistant, flame-retardant glazing for Gold Coast projects. Cut to size."
 headline: "Polycarbonate Sheet — Gold Coast"
+image: "materials/lexan-polycarbonate.jpeg"
 category: "engineering"
 properties:
   - "250x stronger than glass"
@@ -25,7 +26,7 @@ order: 40
 
 ## What Is Polycarbonate?
 
-Polycarbonate (trade names Lexan, Hyzod, Safeguard, Impax) is a high-performance engineering plastic with outstanding impact strength. It is 250 times stronger than glass and 30 times more resilient than acrylic, making it the go-to choice for safety glazing and high-impact applications.
+Polycarbonate (trade names Lexan, Hyzod, Safeguard, Impax) is a high-performance engineering plastic with outstanding impact strength. It is 250 times stronger than glass and 30 times more resilient than [acrylic](/materials/acrylic-sheet), making it the go-to choice for safety glazing and high-impact applications.
 
 ## Key Properties
 

@@ -28,13 +28,13 @@ order: 35
 
 ## SAR Super Abrasion Resistant Acrylic Sheet
 
-SAR is a hard-coated acrylic material combining safety, optical clarity, and durability. A polysilicate coating is applied to an acrylic substrate, delivering 45 times the abrasion resistance of uncoated acrylic — while remaining half the weight of glass.
+SAR is a hard-coated [acrylic](/materials/acrylic-sheet) material combining safety, optical clarity, and durability. A polysilicate coating is applied to an acrylic substrate, delivering 45 times the abrasion resistance of uncoated acrylic — while remaining half the weight of glass.
 
 ### Why Choose SAR?
 
 - **45x abrasion resistance** — far outlasts standard acrylic in scratch-prone environments
 - **5x stronger than glass** — impact and shatter-resistant
-- **93% light transmission** — significantly clearer than polycarbonate (66%) or bullet-resistant glass (55%)
+- **93% light transmission** — significantly clearer than [polycarbonate](/materials/polycarbonate) (66%) or bullet-resistant glass (55%)
 - **Half the weight of glass** — simplifies installation and reduces structural requirements
 - **On-site fabrication** — cut with standard power tools, retrofit into existing glass frames
 - **Chemical resistant** — resists more chemicals than standard acrylic
@@ -50,7 +50,7 @@ SAR is a hard-coated acrylic material combining safety, optical clarity, and dur
 
 **Safety glazing** — schools, hospitals, bus shelters, skylights, sound barriers, zoo enclosures, machine guards
 
-**Transport** — bus windows, automotive sunroofs, aircraft and limousine windows, marine portholes and windshields
+**Transport** — bus windows, [automotive](/industries/automotive) sunroofs, aircraft and limousine windows, [marine](/industries/marine) portholes and windshields
 
 **Commercial and display** — merchandise cases, directory panels, picture framing
 

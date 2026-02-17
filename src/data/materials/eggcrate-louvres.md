@@ -55,7 +55,7 @@ Eggcrate louvres are interlocking grid panels used for light diffusion and air m
 
 ## Applications
 
-Eggcrate louvres are widely used for fluorescent light diffusers, air conditioning return air grilles, ceiling panels, ventilation screens, shopfitting, and commercial fit-outs.
+Eggcrate louvres are widely used for fluorescent light diffusers, air conditioning return air grilles, ceiling panels, ventilation screens, [shopfitting](/industries/shopfitting-signage), and commercial fit-outs.
 
 ## Cut-to-Size Service
 

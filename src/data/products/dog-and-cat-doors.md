@@ -18,7 +18,7 @@ order: 11
 
 ## Perspex Dog and Cat Door Panels
 
-P&M Plastics supplies clear Perspex panels with integrated PetSafe Staywell cat and dog doors. Simply provide your existing glass panel dimensions and your pet's weight, and we supply a matching Perspex panel with the door pre-installed and ready to use.
+P&M Plastics supplies clear [Perspex](/materials/perspex) panels with integrated PetSafe Staywell cat and dog doors. Simply provide your existing glass panel dimensions and your pet's weight, and we supply a matching Perspex panel with the door pre-installed and ready to use.
 
 ### How It Works
 

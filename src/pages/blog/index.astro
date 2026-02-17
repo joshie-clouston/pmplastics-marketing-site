@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import BreadcrumbSchema from '../../components/schema/BreadcrumbSchema.astro';
 import SecondaryCTA from '../../components/sections/SecondaryCTA.astro';
 
 export const prerender = true;
@@ -9,6 +10,7 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
   .sort((a, b) => b.data.publishedDate.valueOf() - a.data.publishedDate.valueOf());
 ---
 <BaseLayout title="Blog" description="Guides, tips, and insights on plastic materials, fabrication, and more. P&M Plastics, Gold Coast.">
+  <BreadcrumbSchema items={[{ name: 'Blog', href: '/blog' }]} slot="structured-data" />
   <section class="section bg-secondary text-secondary-foreground">
     <div class="container mx-auto text-center">
       <h1 class="text-4xl sm:text-5xl font-900 tracking-tight mb-4" data-animate="fade-up">Blog</h1>

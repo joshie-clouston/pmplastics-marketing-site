@@ -24,7 +24,7 @@ order: 5
 
 ## Domestic Plastic Products
 
-P&M Plastics supplies a range of plastic products for household and domestic applications — from ready-made acrylic mats to cut-to-size sheets in virtually any plastic material.
+P&M Plastics supplies a range of plastic products for household and domestic applications — from ready-made [acrylic](/materials/acrylic-sheet) mats to cut-to-size sheets in virtually any plastic material.
 
 ### Featured Products
 
@@ -38,17 +38,17 @@ Durable, easy-to-clean mats suited for kitchens, laundries, and entryways.
 
 We stock an extensive range of plastic materials available cut to size or in full sheets:
 
-- **Perspex** — multiple finishes and colours
+- **[Perspex](/materials/perspex)** — multiple finishes and colours
 - **Acrylic** — sheets, tubes, and rods
-- **Polycarbonate** — impact-resistant sheeting
-- **PVC** — sheets and rods
-- **PETG** — clear, tough sheet material
+- **[Polycarbonate](/materials/polycarbonate)** — impact-resistant sheeting
+- **[PVC](/materials/pvc-sheet)** — sheets and rods
+- **[PETG](/materials/petg-sheet)** — clear, tough sheet material
 - **Foam PVC** — lightweight signage and display board
-- **Corflute** — corrugated polypropylene
-- **HIPS** — High Impact Polystyrene
-- **UHMWPE** — Ultra High Molecular Weight Polyethylene
-- **Nylon** — engineering-grade rod and sheet
-- **PTFE** — chemical-resistant components
+- **Corflute** — corrugated [polypropylene](/materials/polypropylene-sheet-rod)
+- **[HIPS](/materials/hips)** — High Impact Polystyrene
+- **[UHMWPE](/materials/uhmwpe-sheet-rod)** — Ultra High Molecular Weight Polyethylene
+- **[Nylon](/materials/nylon-sheet-rod)** — engineering-grade rod and sheet
+- **[PTFE](/materials/ptfe)** — chemical-resistant components
 - **Aluminium composite panels** — for cladding and signage
 
 Whether you need a single cut piece for a home project or a custom-fabricated component, we can help. Visit our Burleigh Heads showroom or get in touch for a quote.

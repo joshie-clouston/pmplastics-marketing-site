@@ -30,7 +30,7 @@ order: 3
 
 ## Custom Cut Perspex and Acrylic
 
-P&M Plastics supplies commercial grade and cell cast acrylic sheets in clear and opal finishes, along with a wide range of solid and tinted colours. All sheets can be cut to your exact dimensions.
+P&M Plastics supplies commercial grade and cell cast [acrylic](/materials/acrylic-sheet) sheets in clear and opal finishes, along with a wide range of solid and tinted colours. All sheets can be cut to your exact dimensions.
 
 Our cut-to-size service ensures you get precisely what you need — no waste, no hassle.
 

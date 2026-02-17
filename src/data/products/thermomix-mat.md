@@ -18,7 +18,7 @@ order: 8
 
 ## Thermomix Mat — Clear Perspex
 
-Do not drag your Thermomix on the benchtop — this will damage your scales. Use a Perspex mat to safely move the machine around and prevent damage to both the appliance and your surfaces.
+Do not drag your Thermomix on the benchtop — this will damage your scales. Use a [Perspex](/materials/perspex) mat to safely move the machine around and prevent damage to both the appliance and your surfaces.
 
 ### Specifications
 

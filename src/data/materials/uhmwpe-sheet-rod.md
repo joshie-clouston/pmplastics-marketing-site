@@ -63,7 +63,7 @@ UHMWPE (Ultra High Molecular Weight Polyethylene) is a premium engineering plast
 
 ## Applications
 
-UHMWPE is commonly used for wear strips and guides, conveyor components, chute and hopper liners, marine components, food processing equipment, and dock fenders.
+UHMWPE is commonly used for wear strips and guides, conveyor components, chute and hopper liners, [marine](/industries/marine) components, food processing equipment, and dock fenders.
 
 ## Cut-to-Size Service
 

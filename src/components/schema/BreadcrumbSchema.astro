@@ -1,0 +1,29 @@
+---
+import StructuredData from './StructuredData.astro';
+
+interface BreadcrumbItem {
+  name: string;
+  href: string;
+}
+
+interface Props {
+  items: BreadcrumbItem[];
+}
+
+const { items } = Astro.props;
+
+const breadcrumbList = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.pmplastics.com.au/' },
+    ...items.map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 2,
+      name: item.name,
+      item: `https://www.pmplastics.com.au${item.href}`,
+    })),
+  ],
+};
+---
+<StructuredData data={breadcrumbList} />

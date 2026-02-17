@@ -27,9 +27,9 @@ Everyone has at least 3 to 6 pairs of sunglasses. Now you can easily choose your
 
 ### Specifications
 
-- **Material**: 3mm clear high-impact Perspex
+- **Material**: 3mm clear high-impact [Perspex](/materials/perspex)
 - **Assembly**: Flat-pack design with simple clip-together construction — no tools or adhesives required
-- **Finish**: Clear transparent acrylic for maximum visibility
+- **Finish**: Clear transparent [acrylic](/materials/acrylic-sheet) for maximum visibility
 
 ### Features
 

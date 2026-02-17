@@ -1,0 +1,31 @@
+---
+import StructuredData from './StructuredData.astro';
+
+interface ListItem {
+  name: string;
+  url: string;
+}
+
+interface Props {
+  name: string;
+  description: string;
+  items: ListItem[];
+}
+
+const { name, description, items } = Astro.props;
+
+const itemList = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name,
+  description,
+  numberOfItems: items.length,
+  itemListElement: items.map((item, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: item.name,
+    url: `https://www.pmplastics.com.au${item.url}`,
+  })),
+};
+---
+<StructuredData data={itemList} />

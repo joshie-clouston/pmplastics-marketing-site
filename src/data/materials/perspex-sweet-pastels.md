@@ -59,7 +59,7 @@ Each sheet features a **matt finish on one side and smooth gloss on the other**,
 - **Dual-finish surface** — matt on one side, gloss on the other for design versatility
 - **EU food contact compliant** — suitable for food display and retail food environments
 - **Excellent UV and weather resistance** for long-lasting outdoor colour
-- **Suitable for fabrication and thermoforming** using standard acrylic processing
+- **Suitable for fabrication and [thermoforming](/services/plastic-thermo-forming)** using standard acrylic processing
 - **Lightweight and durable** with consistent colour throughout
 - **Up to 17 times the impact resistance of glass**
 - **100% recyclable**

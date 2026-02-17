@@ -2,6 +2,7 @@
 title: "Decorative Designer Acrylic Panels"
 description: "Decorative designer acrylic panels in a wide range of colours and finishes — cut to size on the Gold Coast."
 headline: "Decorative Designer Acrylic Panels — Gold Coast"
+image: "gallery/decorative-panels/decorative-acrylic-panel-01.jpg"
 features:
   - "Approximately 17 times stronger than glass"
   - "Weather resistant and UV stable"
@@ -21,7 +22,7 @@ order: 2
 
 ## Designer Acrylic Panels for Architectural and Interior Applications
 
-Acrylic, also known as Perspex or Plexiglass, is a transparent thermoplastic that is often chosen as a light, durable, and cost-effective replacement for glass. Our decorative designer acrylic panels bring colour and visual impact to residential and commercial interiors.
+[Acrylic](/materials/acrylic-sheet), also known as [Perspex](/materials/perspex) or Plexiglass, is a transparent thermoplastic that is often chosen as a light, durable, and cost-effective replacement for glass. Our decorative designer acrylic panels bring colour and visual impact to residential and commercial interiors.
 
 ### Why Choose Acrylic Panels?
 
@@ -29,7 +30,7 @@ Acrylic, also known as Perspex or Plexiglass, is a transparent thermoplastic tha
 - **Weather resistant** — suitable for both indoor and outdoor use
 - **Easy to cut and shape** — readily fabricated to any design
 - **Shatter-resistant** — far safer than glass in high-traffic areas
-- **Economical alternative to polycarbonate** — premium look at a lower price point
+- **Economical alternative to [polycarbonate](/materials/polycarbonate)** — premium look at a lower price point
 
 ### Available Colours
 

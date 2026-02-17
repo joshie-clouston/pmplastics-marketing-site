@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import StructuredData from '../../components/schema/StructuredData.astro';
+import BreadcrumbSchema from '../../components/schema/BreadcrumbSchema.astro';
 import SecondaryCTA from '../../components/sections/SecondaryCTA.astro';
 
 export const prerender = true;
@@ -12,6 +13,7 @@ const allQuestions = faqPages.flatMap((page) =>
 );
 ---
 <BaseLayout title="FAQs" description="Frequently asked questions about plastic fabrication, laser cutting, engraving, and materials. P&M Plastics, Gold Coast.">
+  <BreadcrumbSchema items={[{ name: 'FAQs', href: '/faqs' }]} slot="structured-data" />
   <StructuredData slot="structured-data" data={{
     "@context": "https://schema.org",
     "@type": "FAQPage",

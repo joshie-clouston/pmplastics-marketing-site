@@ -50,10 +50,26 @@ const canonicalURL = canonical || new URL(Astro.url.pathname, Astro.site);
 
     <!-- Scroll animations -->
     <script>
-      import anime from 'animejs';
+      function showAllElements() {
+        document.querySelectorAll('[data-animate]').forEach((el) => {
+          (el as HTMLElement).style.opacity = '1';
+        });
+        document.querySelectorAll('[data-animate="stagger"] > *').forEach((el) => {
+          (el as HTMLElement).style.opacity = '1';
+        });
+      }
 
-      function initAnimations() {
+      async function initAnimations() {
+        let anime: typeof import('animejs').default;
+        try {
+          anime = (await import('animejs')).default;
+        } catch {
+          showAllElements();
+          return;
+        }
+
         const elements = document.querySelectorAll('[data-animate]');
+        if (!elements.length) return;
 
         const observer = new IntersectionObserver(
           (entries) => {
@@ -112,6 +128,20 @@ const canonicalURL = canonical || new URL(Astro.url.pathname, Astro.site);
         );
 
         elements.forEach((el) => observer.observe(el));
+
+        // Safety net: show all elements after 3s if animations haven't fired
+        setTimeout(() => {
+          document.querySelectorAll('[data-animate]').forEach((el) => {
+            if (getComputedStyle(el).opacity === '0') {
+              (el as HTMLElement).style.opacity = '1';
+            }
+          });
+          document.querySelectorAll('[data-animate="stagger"] > *').forEach((el) => {
+            if (getComputedStyle(el).opacity === '0') {
+              (el as HTMLElement).style.opacity = '1';
+            }
+          });
+        }, 3000);
       }
 
       document.addEventListener('astro:page-load', initAnimations);

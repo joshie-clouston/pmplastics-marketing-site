@@ -1,7 +1,11 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import ContentCard from '../../components/ui/ContentCard.astro';
 import SecondaryCTA from '../../components/sections/SecondaryCTA.astro';
+import BreadcrumbSchema from '../../components/schema/BreadcrumbSchema.astro';
+import ItemListSchema from '../../components/schema/ItemListSchema.astro';
+import { resolveImage } from '../../lib/images';
 
 export const prerender = true;
 
@@ -9,6 +13,9 @@ const galleries = (await getCollection('gallery', ({ data }) => !data.draft))
   .sort((a, b) => a.data.order - b.data.order);
 ---
 <BaseLayout title="Gallery" description="See our work — custom plastic fabrication, vacuum forming, tanks, display products, and more. P&M Plastics, Gold Coast.">
+  <BreadcrumbSchema items={[{ name: 'Gallery', href: '/gallery' }]} slot="structured-data" />
+  <ItemListSchema name="Project Gallery" description="Browse our portfolio of custom plastic fabrication projects" items={galleries.map((g) => ({ name: g.data.title, url: `/gallery/${g.id}` }))} slot="structured-data" />
+
   <section class="section bg-secondary text-secondary-foreground">
     <div class="container mx-auto text-center">
       <h1 class="text-4xl sm:text-5xl font-900 tracking-tight mb-4" data-animate="fade-up">Gallery</h1>
@@ -22,14 +29,13 @@ const galleries = (await getCollection('gallery', ({ data }) => !data.draft))
     <div class="container mx-auto">
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6" data-animate="stagger">
         {galleries.map((gallery) => (
-          <a href={`/gallery/${gallery.id}`} class="group block p-6 rounded-xl border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300">
-            <h2 class="font-700 text-xl mb-2 group-hover:text-primary transition-colors">{gallery.data.title}</h2>
-            <p class="text-muted-foreground text-sm leading-relaxed mb-4">{gallery.data.description}</p>
-            <span class="text-primary text-sm font-600 inline-flex items-center gap-1">
-              View gallery
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-            </span>
-          </a>
+          <ContentCard
+            href={`/gallery/${gallery.id}`}
+            title={gallery.data.title}
+            description={gallery.data.description}
+            image={gallery.data.image ? resolveImage(gallery.data.image) : undefined}
+            linkText="View gallery"
+          />
         ))}
       </div>
     </div>

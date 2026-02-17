@@ -27,7 +27,7 @@ order: 23
 
 ## Acrylic Silver & Gold Mirror — Commercial Grade
 
-Commercial-grade acrylic mirror combines lightweight construction with the reflective qualities of glass — in a durable, fabrication-ready material. Available in silver, gold, and rose gold finishes, this mirror is suitable for residential, retail, commercial, and marine environments.
+Commercial-grade acrylic mirror combines lightweight construction with the reflective qualities of glass — in a durable, fabrication-ready material. Available in silver, gold, and rose gold finishes, this mirror is suitable for residential, retail, commercial, and [marine](/industries/marine) environments.
 
 ### Why Choose Acrylic Mirror?
 

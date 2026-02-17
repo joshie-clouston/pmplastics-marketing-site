@@ -29,7 +29,7 @@ order: 4
 
 Perspex Fluorescent is a specialist cast acrylic sheet featuring fluorescent edges that appear to glow under ambient light. The striking visual effect makes it a popular choice for architects, designers, and retailers seeking to create bold, attention-grabbing displays.
 
-The material shares identical physical properties to standard Perspex cast acrylic, making it fully suitable for fabrication and thermoforming.
+The material shares identical physical properties to standard Perspex cast acrylic, making it fully suitable for fabrication and [thermoforming](/services/plastic-thermo-forming).
 
 ## Available Colours
 

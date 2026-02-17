@@ -2,6 +2,7 @@
 title: "Automotive"
 description: "Automotive plastic products and safety matting on the Gold Coast — anti-slip flooring, speed humps, and UTE matting for vehicles and workshops."
 headline: "Automotive Plastic Products — Gold Coast"
+image: "products/custom-fabrication.jpeg"
 services:
   - "CNC Water Jet Cutting"
   - "CNC Vacuum Forming"
@@ -45,4 +46,4 @@ P&M Plastics supplies a range of plastic products purpose-built for automotive a
 
 ### Custom Automotive Components
 
-Beyond our standard product range, we fabricate custom automotive plastic components using CNC water jet cutting, vacuum forming, router cutting, and laser cutting. Whether you need a one-off prototype or a production run, get in touch for a quote.
+Beyond our standard product range, we fabricate custom automotive [plastic components](/products/components) using [CNC water jet cutting](/services/cnc-water-jet-cutting), [vacuum forming](/services/cnc-vacuum-forming), [router cutting](/services/cnc-router-cutting), and [laser cutting](/services/cnc-laser-cutting). Whether you need a one-off prototype or a production run, get in touch for a quote.

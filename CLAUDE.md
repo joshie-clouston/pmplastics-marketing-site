@@ -32,6 +32,22 @@
 - Images in `src/assets/images/` (Astro-optimised)
 - Sections as standalone components in `src/components/sections/`
 
+## SEO: Internal Linking
+Every content page MUST cross-link aggressively to related pages. This is non-negotiable for SEO — internal links pass link equity and give crawlers a complete site graph.
+
+**Rules:**
+- When a service name appears in body copy, link it: `[CNC Water Jet Cutting](/services/cnc-water-jet-cutting)`
+- When a material name appears, link it: `[Perspex](/materials/perspex)`, `[HDPE](/materials/hdpe)`
+- When a product name appears, link it: `[Sneeze Guards](/products/sneeze-guards)`
+- When an industry is mentioned, link it: `[Marine](/industries/marine)`
+- Link each term once per section (not every occurrence — first mention per section)
+- Never self-link (don't link "Plastic Fabrication" on the plastic fabrication page)
+- Service pages should link to: related services, materials used, products made, relevant industries
+- Material pages should link to: services that use them, products made from them
+- Product pages should link to: materials used, services involved, related products
+- Include contextual CTAs: "Get a quote for [CNC Laser Cutting](/services/cnc-laser-cutting)" style links
+- Gallery pages should link to: services shown, materials featured, products pictured
+
 ## Services (preserve these exactly)
 1. CNC Water Jet Cutting
 2. CNC Vacuum Forming

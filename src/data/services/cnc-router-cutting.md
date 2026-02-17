@@ -2,6 +2,7 @@
 title: "CNC Router Cutting"
 description: "CNC router cutting on the Gold Coast — precision 2D and 3D machining in plastics, metals, timber, and composites with Australia-wide shipping."
 headline: "CNC Router Cutting — Gold Coast"
+image: "services/router-cutting-gold-coast.jpeg"
 features:
   - "CAD-driven 2D and 3D machining with auto multi-tool changing"
   - "Auto nesting software for maximum material efficiency"
@@ -30,10 +31,10 @@ P&M Plastics is privately owned and operated on the Gold Coast. Situated in Burl
 
 Driven by CAD software that performs 2D and 3D machining, combined with auto multi-tool changing software and auto nesting programs, our routers cut a wide selection of materials:
 
-- HDPE
-- UHMWPE
-- Acetal
-- Nylon
+- [HDPE](/materials/hdpe)
+- [UHMWPE](/materials/uhmwpe-sheet-rod)
+- [Acetal](/materials/acetal-sheet-rod)
+- [Nylon](/materials/nylon-sheet-rod)
 - MDF
 - Aluminium and similar metals
 - Copper
@@ -65,12 +66,12 @@ With this range of machines, we handle both small and large jobs in any quantity
 CNC machines are efficient, safe, and cost-effective. They cut consistent shapes and create intricate designs, making router cutting particularly valuable for orders in larger quantities.
 
 **What materials cannot be router cut?**
-We do not recommend router cutting glass due to the risk of shattering. For similar results, clear acrylic and other plastic materials are excellent alternatives.
+We do not recommend router cutting glass due to the risk of shattering. For similar results, clear [acrylic](/materials/acrylic-sheet) and other plastic materials are excellent alternatives.
 
 **What types of wood can be cut?**
 Nearly all types of wood can be CNC router cut, including derivatives such as MDF and plywood.
 
 **Can PVC be router cut?**
-Yes. For the most accurate, consistent results, hard plastics like PVC should be cut using solid carbide router tools.
+Yes. For the most accurate, consistent results, hard plastics like [PVC](/materials/pvc-sheet) should be cut using solid carbide router tools.
 
 Contact P&M Plastics on **07 5535 7544** or request a free quote for your CNC router cutting project.

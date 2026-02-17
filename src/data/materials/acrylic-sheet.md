@@ -27,7 +27,7 @@ order: 20
 
 ## Acrylic Sheet — Perspex and Plexiglass
 
-Acrylic, also known as Perspex or Plexiglass, is a transparent thermoplastic chosen as a lightweight, durable, and cost-effective replacement for glass. First invented in 1927, acrylic has been used extensively in applications ranging from aircraft canopies to modern retail signage.
+Acrylic, also known as [Perspex](/materials/perspex) or Plexiglass, is a transparent thermoplastic chosen as a lightweight, durable, and cost-effective replacement for glass. First invented in 1927, acrylic has been used extensively in applications ranging from aircraft canopies to modern retail signage.
 
 ### Why Choose Acrylic Sheet?
 
@@ -36,7 +36,7 @@ Acrylic, also known as Perspex or Plexiglass, is a transparent thermoplastic cho
 - **Weather resistant** — suitable for both indoor and outdoor use
 - **Easy to fabricate** — readily cut, machined, shaped, and glued
 - **Shatter-resistant** — far safer than glass in high-traffic areas
-- **Economical alternative to polycarbonate** — premium look at a lower price point
+- **Economical alternative to [polycarbonate](/materials/polycarbonate)** — premium look at a lower price point
 
 ### Available Colours
 

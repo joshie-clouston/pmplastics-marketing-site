@@ -2,6 +2,17 @@
 title: "Material Properties"
 description: "Technical properties and specifications for plastics stocked by P&M Plastics — acrylic, Perspex, polycarbonate, PVC, HDPE, and engineering plastics."
 order: 9
+image: "gallery/material-properties/material-properties-01.jpg"
+images:
+  - { src: "gallery/material-properties/material-properties-01.jpg", alt: "Plastic material properties comparison" }
+  - { src: "gallery/material-properties/material-properties-02.jpg", alt: "Material properties chart" }
+  - { src: "gallery/material-properties/material-properties-03.jpg", alt: "Plastic material properties" }
+  - { src: "gallery/material-properties/material-properties-04.jpg", alt: "Material comparison chart" }
+  - { src: "gallery/material-properties/material-properties-05.jpg", alt: "Material properties" }
+  - { src: "gallery/material-properties/material-properties-06.jpg", alt: "Plastic material comparison" }
+  - { src: "gallery/material-properties/material-properties-07.jpg", alt: "Material properties chart" }
+  - { src: "gallery/material-properties/material-properties-08.jpg", alt: "Material properties comparison" }
+  - { src: "gallery/material-properties/material-properties-09.jpg", alt: "Plastic material properties" }
 ---
 
 ## Material Properties Reference
@@ -21,7 +32,7 @@ P&M Plastics stocks a comprehensive range of plastic materials. This reference g
 | Chemical resistance | Resistant to household detergents, cleaning agents, inorganic acids, alkalies, and aliphatic hydrocarbons |
 | Incompatible with | Chlorinated and aromatic hydrocarbons, esters, and ketones |
 
-**Available formats:** Sheet (various sizes), cut to size, tubes, rods. Clear and coloured options. Perspex clear carries a 30-year warranty; coloured variants carry a 10-year warranty.
+**Available formats:** Sheet (various sizes), cut to size, tubes, rods. Clear and coloured options. [Perspex](/materials/perspex) clear carries a 30-year warranty; coloured variants carry a 10-year warranty.
 
 ### High Impact Acrylic (H.I.A.)
 
@@ -80,7 +91,7 @@ P&M Plastics stocks a comprehensive range of plastic materials. This reference g
 | Property | Value |
 |---|---|
 | Specific gravity | 0.90-0.91 |
-| Chemical resistance | Excellent — superior to HDPE for many solvents |
+| Chemical resistance | Excellent — superior to [HDPE](/materials/hdpe) for many solvents |
 | Temperature range | Up to 100 °C |
 | Weldability | Excellent — hot air and extrusion welded |
 
@@ -91,7 +102,7 @@ P&M Plastics stocks a comprehensive range of plastic materials. This reference g
 | Property | Value |
 |---|---|
 | Light transmission (clear) | ~90% |
-| Impact resistance | Superior to acrylic |
+| Impact resistance | Superior to [acrylic](/materials/acrylic-sheet) |
 | Chemical resistance | Good — resistant to many household and industrial chemicals |
 | Food safe | Yes — FDA approved |
 | Thermoformability | Excellent |
@@ -103,12 +114,12 @@ P&M Plastics stocks a comprehensive range of plastic materials. This reference g
 | Application | Recommended Material |
 |---|---|
 | Signage and displays | Acrylic / Perspex |
-| Pool fence panels | Acrylic (standard) or Polycarbonate (high-traffic) |
+| Pool fence panels | Acrylic (standard) or [Polycarbonate](/materials/polycarbonate) (high-traffic) |
 | Skylights | Acrylic opal or High Impact Acrylic |
-| Chemical storage tanks | PVC or Polypropylene |
+| Chemical storage tanks | [PVC](/materials/pvc-sheet) or [Polypropylene](/materials/polypropylene-sheet-rod) |
 | Machine guards | Polycarbonate |
-| Marine components | UV-stabilised acrylic or HDPE |
-| Food processing | HDPE (food-grade) or PETG |
+| [Marine](/industries/marine) components | UV-stabilised acrylic or HDPE |
+| Food processing | HDPE (food-grade) or [PETG](/materials/petg-sheet) |
 | External signage | High Impact Acrylic |
 
 Contact P&M Plastics on **07 5535 7544** for material samples, technical data sheets, and expert guidance on material selection for your project.

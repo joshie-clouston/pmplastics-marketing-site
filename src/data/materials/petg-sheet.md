@@ -47,7 +47,7 @@ Clear PETG (Polyethylene Terephthalate Glycol) sheet is manufactured through ext
 
 ## Applications
 
-PETG sheet is commonly used for screen printing, signage, point-of-sale displays, and industrial guards.
+PETG sheet is commonly used for screen printing, [signage](/industries/shopfitting-signage), point-of-sale displays, and industrial guards.
 
 ## Cut-to-Size Service
 

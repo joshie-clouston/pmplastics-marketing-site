@@ -49,7 +49,7 @@ Perspex Opals is a white acrylic sheet offering a wide range of different light 
 - **Multiple light transmission levels** — choose the right opacity for your application
 - **Excellent light diffusion** — creates smooth, even illumination without hot spots
 - **UV and weather resistant** for long-lasting indoor and outdoor performance
-- **Suitable for fabrication and thermoforming** using standard acrylic methods
+- **Suitable for fabrication and [thermoforming](/services/plastic-thermo-forming)** using standard acrylic methods
 - **Lightweight** with consistent colour throughout
 - **Up to 17 times the impact resistance of glass**
 - **10-year guarantee** covering both external and internal applications

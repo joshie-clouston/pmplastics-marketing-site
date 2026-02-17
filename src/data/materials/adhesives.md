@@ -36,19 +36,19 @@ We stock a range of adhesives specifically formulated for plastic bonding and ca
 
 Solvent cements work by dissolving the surfaces of the plastic parts, allowing them to fuse together as the solvent evaporates. This creates a chemical weld that is often stronger than the parent material.
 
-- **Acrylic cement:** For bonding acrylic to acrylic — produces a clear, strong joint
-- **PVC cement:** For bonding rigid PVC — commonly used in pipe and tank fabrication
+- **Acrylic cement:** For bonding [acrylic](/materials/acrylic-sheet) to acrylic — produces a clear, strong joint
+- **PVC cement:** For bonding rigid [PVC](/materials/pvc-sheet) — commonly used in pipe and tank fabrication
 
 ### Two-Part Adhesives
 
 Two-part (epoxy and methacrylate) adhesives are ideal for bonding dissimilar materials or where a gap-filling adhesive is required.
 
 - **Epoxy adhesives:** High-strength structural bonds for most plastics and metals
-- **Methacrylate adhesives:** Excellent for bonding acrylic, polycarbonate, and composites
+- **Methacrylate adhesives:** Excellent for bonding acrylic, [polycarbonate](/materials/polycarbonate), and composites
 
 ### UV-Cure Adhesives
 
-UV-cure adhesives set when exposed to ultraviolet light, producing a crystal-clear bond. Ideal for display and signage work where appearance is critical.
+UV-cure adhesives set when exposed to ultraviolet light, producing a crystal-clear bond. Ideal for display and [signage](/industries/shopfitting-signage) work where appearance is critical.
 
 ### General-Purpose Adhesives
 

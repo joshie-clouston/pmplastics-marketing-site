@@ -18,7 +18,7 @@ order: 7
 
 ## Perspex Recipe Book Holder
 
-Every budding chef needs one of these. The frame is made from 6mm thick clear Perspex with a loose 3mm thick clear Perspex cover panel — your recipe book will always be well protected. Very practical and easy to clean.
+Every budding chef needs one of these. The frame is made from 6mm thick clear [Perspex](/materials/perspex) with a loose 3mm thick clear Perspex cover panel — your recipe book will always be well protected. Very practical and easy to clean.
 
 ### Design
 

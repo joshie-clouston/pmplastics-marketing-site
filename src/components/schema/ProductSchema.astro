@@ -1,0 +1,31 @@
+---
+import StructuredData from './StructuredData.astro';
+
+interface Props {
+  name: string;
+  description: string;
+  url: string;
+  image?: string;
+}
+
+const { name, description, url, image } = Astro.props;
+
+const product = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name,
+  description,
+  url: `https://www.pmplastics.com.au${url}`,
+  ...(image && { image }),
+  brand: {
+    '@type': 'Brand',
+    name: 'P&M Plastics',
+  },
+  manufacturer: {
+    '@type': 'Organization',
+    name: 'P&M Plastics',
+    url: 'https://www.pmplastics.com.au',
+  },
+};
+---
+<StructuredData data={product} />

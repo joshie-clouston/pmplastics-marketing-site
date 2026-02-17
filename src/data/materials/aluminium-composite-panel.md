@@ -53,7 +53,7 @@ Aluminium Composite Material (ACM/ACP) is a decorative panel used increasingly b
 
 ## Applications
 
-Aluminium composite panel is widely used in architecture (ceilings, wall linings, partitions), display and external signage, transport (trailers, buses, marine and rail), and building cladding.
+Aluminium composite panel is widely used in architecture (ceilings, wall linings, partitions), display and external [signage](/industries/shopfitting-signage), transport (trailers, buses, [marine](/industries/marine) and rail), and building cladding.
 
 ## Cut-to-Size Service
 

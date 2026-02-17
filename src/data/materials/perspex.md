@@ -2,6 +2,7 @@
 title: "Perspex"
 description: "Perspex cast acrylic sheets — internationally renowned for quality, UV stability, and an extensive colour range. Authorised QLD reseller."
 headline: "Perspex — Premium Cast Acrylic Sheets"
+image: "materials/perspex.jpeg"
 category: "perspex"
 properties:
   - "Internationally renowned acrylic brand since 1934"

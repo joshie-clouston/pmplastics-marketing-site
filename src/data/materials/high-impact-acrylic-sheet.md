@@ -29,7 +29,7 @@ order: 22
 
 ## High Impact Acrylic Sheet (H.I.A.)
 
-High Impact Acrylic is an extruded acrylic product offering superior impact resistance — several times greater than glass — combined with excellent optical clarity and weather resistance. Engineered for demanding external applications, H.I.A. withstands exposure to blazing sun, extreme cold, sudden temperature changes, and salt water spray.
+High Impact Acrylic is an extruded [acrylic](/materials/acrylic-sheet) product offering superior impact resistance — several times greater than glass — combined with excellent optical clarity and weather resistance. Engineered for demanding external applications, H.I.A. withstands exposure to blazing sun, extreme cold, sudden temperature changes, and salt water spray.
 
 ### Why Choose High Impact Acrylic?
 

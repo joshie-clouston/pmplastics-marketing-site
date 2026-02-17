@@ -2,6 +2,7 @@
 title: "CNC Vacuum Forming"
 description: "CNC vacuum forming on the Gold Coast — five specialised machines with capacities up to 3100 x 2000 mm for consistent, high-quality results."
 headline: "CNC Vacuum Forming — Gold Coast"
+image: "services/vacuum-formed-lion-face.jpg"
 features:
   - "Five specialised vacuum forming machines operational"
   - "CNC-controlled heaters, timing, and vacuum pressure for consistency"
@@ -44,7 +45,7 @@ We currently operate five vacuum forming machines:
 
 We vacuum form a range of thermoplastic materials, including:
 
-- Acrylic
+- [Acrylic](/materials/acrylic-sheet)
 - High Impact Styrene
 - High Impact Acrylic
 - Polyethylene
@@ -55,7 +56,7 @@ We vacuum form a range of thermoplastic materials, including:
 
 Our in-house tooling capability means we can take your project from concept to production:
 
-- **Prototypes** — wood or MDF tools manufactured in-house using our 3D CNC routers
+- **Prototypes** — wood or MDF tools manufactured in-house using our 3D [CNC routers](/services/cnc-router-cutting)
 - **Production tooling** — tools manufactured from fibreglass or aluminium epoxy for long-run durability
 - **Trimming** — jigs, fixtures, or our CNC Robot Trimmer are used for accurate component separation after forming
 

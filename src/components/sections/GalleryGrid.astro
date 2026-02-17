@@ -1,0 +1,33 @@
+---
+import { Image } from 'astro:assets';
+import { resolveImage } from '../../lib/images';
+
+interface Props {
+  images: Array<{ src: string; alt: string }>;
+}
+
+const { images } = Astro.props;
+
+const resolved = images
+  .map((img) => ({ meta: resolveImage(img.src), alt: img.alt }))
+  .filter((img): img is { meta: ImageMetadata; alt: string } => !!img.meta);
+---
+{resolved.length > 0 && (
+  <section class="section bg-white">
+    <div class="container mx-auto max-w-5xl">
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4" data-animate="stagger">
+        {resolved.map((img) => (
+          <div class="group relative aspect-square overflow-hidden rounded-xl bg-muted">
+            <Image
+              src={img.meta}
+              alt={img.alt}
+              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              widths={[320, 480, 640]}
+              sizes="(max-width: 768px) 50vw, 33vw"
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+)}

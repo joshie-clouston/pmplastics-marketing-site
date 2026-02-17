@@ -8,6 +8,7 @@ const services = defineCollection({
     title: z.string(),
     description: z.string(),
     headline: z.string().optional(),
+    image: z.string().optional(),
     features: z.array(z.string()).default([]),
     applications: z.array(z.string()).default([]),
     order: z.number().default(0),
@@ -21,6 +22,7 @@ const products = defineCollection({
     title: z.string(),
     description: z.string(),
     headline: z.string().optional(),
+    image: z.string().optional(),
     features: z.array(z.string()).default([]),
     applications: z.array(z.string()).default([]),
     category: z.string().optional(),
@@ -35,6 +37,7 @@ const industries = defineCollection({
     title: z.string(),
     description: z.string(),
     headline: z.string().optional(),
+    image: z.string().optional(),
     services: z.array(z.string()).default([]),
     products: z.array(z.string()).default([]),
     order: z.number().default(0),
@@ -48,6 +51,7 @@ const materials = defineCollection({
     title: z.string(),
     description: z.string(),
     headline: z.string().optional(),
+    image: z.string().optional(),
     category: z.enum([
       'perspex',
       'acrylic',
@@ -68,6 +72,8 @@ const gallery = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
+    image: z.string().optional(),
+    images: z.array(z.object({ src: z.string(), alt: z.string() })).default([]),
     order: z.number().default(0),
     draft: z.boolean().default(false),
   }),
@@ -78,6 +84,7 @@ const blog = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
+    image: z.string().optional(),
     publishedDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     draft: z.boolean().default(false),

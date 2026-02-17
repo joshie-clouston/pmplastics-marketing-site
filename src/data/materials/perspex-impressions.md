@@ -58,7 +58,7 @@ The pattern is integral to the sheet — it cannot be rubbed or scratched off.
 - **Dual-finish surface** — gloss on one side, linear pattern on the other
 - **Permanent pattern** that cannot be rubbed or scratched off
 - **Excellent UV and weather resistance** for indoor and outdoor use
-- **Suitable for fabrication and thermoforming** using standard acrylic processing methods
+- **Suitable for fabrication and [thermoforming](/services/plastic-thermo-forming)** using standard acrylic processing methods
 - **Great resilience and resistance to wear**
 - **Up to 17 times the impact resistance of glass**
 - **10-year guarantee** covering external and internal applications

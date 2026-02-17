@@ -2,6 +2,7 @@
 title: "CNC Water Jet Cutting"
 description: "CNC water jet cutting on the Gold Coast — cuts virtually any material into any shape, text or design with precision and minimal waste."
 headline: "CNC Water Jet Cutting — Gold Coast"
+image: "services/cnc-routing.jpeg"
 features:
   - "Cuts virtually any material into any shape, text, or design"
   - "No heat-affected zone — preserves material properties"
@@ -23,13 +24,13 @@ order: 2
 
 P&M Plastics offers CNC water jet cutting services from our Gold Coast facility in Burleigh Heads, with Australia-wide shipping available. Water jet cutting uses a high-pressure stream of water — often mixed with an abrasive garnet — to cut through virtually any material with extreme precision.
 
-Unlike laser or thermal cutting methods, water jet cutting produces no heat-affected zone, meaning material properties remain unchanged right up to the cut edge. This makes it ideal for heat-sensitive materials, thick sections, and applications where edge quality is critical.
+Unlike [laser](/services/cnc-laser-cutting) or thermal cutting methods, water jet cutting produces no heat-affected zone, meaning material properties remain unchanged right up to the cut edge. This makes it ideal for heat-sensitive materials, thick sections, and applications where edge quality is critical.
 
 ## Materials We Cut
 
 Water jet cutting is one of the most versatile cutting methods available, capable of handling:
 
-- **Plastics** — acrylic, Perspex, polycarbonate, HDPE, PVC, nylon, UHMWPE, and more
+- **Plastics** — [acrylic](/materials/acrylic-sheet), [Perspex](/materials/perspex), [polycarbonate](/materials/polycarbonate), [HDPE](/materials/hdpe), [PVC](/materials/pvc-sheet), [nylon](/materials/nylon-sheet-rod), [UHMWPE](/materials/uhmwpe-sheet-rod), and more
 - **Metals** — aluminium, stainless steel, mild steel, copper, brass, and titanium
 - **Stone and composite** — marble, granite, ceramic tile, and composite panels
 - **Timber** — MDF, plywood, and solid hardwoods

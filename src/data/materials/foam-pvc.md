@@ -26,7 +26,7 @@ order: 43
 
 ## What Is Foam PVC?
 
-Foamed Poly Vinyl Chloride (Foam PVC) is a semi-rigid extruded sheet material available in multiple colours. At half the weight of rigid PVC, it delivers excellent versatility for sign, display, exhibition, and building industry applications.
+Foamed Poly Vinyl Chloride (Foam PVC) is a semi-rigid extruded sheet material available in multiple colours. At half the weight of rigid [PVC](/materials/pvc-sheet), it delivers excellent versatility for sign, display, exhibition, and building industry applications.
 
 ## Key Properties
 

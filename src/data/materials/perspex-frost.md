@@ -29,7 +29,7 @@ order: 6
 
 Perspex Frost features a double-sided matt surface that gives the appearance of sandblasted or etched glass. Available in 24 colours spanning from clear and opal through fresh pastels to deep warm reds, rich greens, and blues, the Frost range is one of the most versatile collections in the Perspex family.
 
-The matt texture is retained after thermoforming, ensuring a consistent finish on fabricated parts.
+The matt texture is retained after [thermoforming](/services/plastic-thermo-forming), ensuring a consistent finish on fabricated parts.
 
 ## Available Colours (24 Options)
 

@@ -2,6 +2,7 @@
 title: "Pool Safety Compliance Panels"
 description: "PERSPEX and polycarbonate pool fence panels compliant with Gold Coast and QBCC safety standards — custom cut to size."
 headline: "Pool Fence Panels — Gold Coast Compliant"
+image: "products/custom-plastic-products.jpeg"
 features:
   - "Acrylic (PERSPEX) — up to 17x stronger than glass"
   - "Polycarbonate (LEXAN) — up to 250x stronger than glass"
@@ -47,6 +48,6 @@ P&M Plastics supplies custom-cut pool fence panels in two premium materials, bot
 
 ### Why Upgrade to Acrylic or Polycarbonate?
 
-Traditional glass pool fencing is heavy, expensive, and poses a shattering risk. Acrylic and polycarbonate panels deliver superior strength at a fraction of the weight, with no compromise on clarity or aesthetics.
+Traditional glass pool fencing is heavy, expensive, and poses a shattering risk. [Acrylic](/materials/acrylic-sheet) and [polycarbonate](/materials/polycarbonate) panels deliver superior strength at a fraction of the weight, with no compromise on clarity or aesthetics.
 
 Contact P&M Plastics on **07 5535 7544** or request a quote for compliant pool fence panels tailored to your property.

@@ -1,6 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import BreadcrumbSchema from '../../components/schema/BreadcrumbSchema.astro';
+import ItemListSchema from '../../components/schema/ItemListSchema.astro';
 
 export const prerender = true;
 
@@ -18,6 +20,9 @@ const categoryLabels: Record<string, string> = {
 const categories = Object.groupBy(materials, (m) => m.data.category);
 ---
 <BaseLayout title="Materials" description="Huge range of plastic materials — Perspex, polycarbonate, acrylic, nylon, HDPE, PVC, engineering plastics, and more. P&M Plastics, Gold Coast.">
+  <BreadcrumbSchema items={[{ name: 'Materials', href: '/materials' }]} slot="structured-data" />
+  <ItemListSchema name="Plastic Materials" description="Complete range of plastic materials stocked by P&M Plastics" items={materials.map((m) => ({ name: m.data.title, url: `/materials/${m.id}` }))} slot="structured-data" />
+
   <section class="section bg-secondary text-secondary-foreground">
     <div class="container mx-auto text-center">
       <h1 class="text-4xl sm:text-5xl font-900 tracking-tight mb-4" data-animate="fade-up">Materials</h1>

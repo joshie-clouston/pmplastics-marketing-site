@@ -23,7 +23,7 @@ order: 7
 
 ## Gaming Industry
 
-P&M Plastics is a major supplier of components to the gaming industry. We manufacture a range of acrylic, aluminium, and stainless steel components for use in signage and promotional displays for casino and gaming room environments.
+P&M Plastics is a major supplier of components to the gaming industry. We manufacture a range of [acrylic](/materials/acrylic-sheet), aluminium, and stainless steel components for use in [signage](/industries/shopfitting-signage) and promotional displays for casino and gaming room environments.
 
 ### What We Make
 
@@ -44,8 +44,8 @@ We handle the complete production cycle from design through to delivery:
 
 1. **Design** — working with clients to develop the concept
 2. **CNC machining** — precision tooling and mould creation
-3. **Vacuum forming** — producing components designed for visual impact
-4. **Laser cutting and engraving** — fine detail work in 2D and 3D
+3. **[Vacuum forming](/services/cnc-vacuum-forming)** — producing components designed for visual impact
+4. **[Laser cutting](/services/cnc-laser-cutting) and engraving** — fine detail work in 2D and 3D
 5. **Fabrication and assembly** — complete in-house build
 6. **Delivery** — finished products shipped direct to OEM clients
 

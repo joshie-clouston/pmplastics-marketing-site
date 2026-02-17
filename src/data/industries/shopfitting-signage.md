@@ -31,7 +31,7 @@ P&M Plastics manufactures a range of commercial shopfitting components and assem
 
 #### Retail Display Solutions
 - Hat, sunglass, and watch display stands
-- Acrylic dump bins
+- [Acrylic](/materials/acrylic-sheet) dump bins
 - Promotional displays
 - Cosmetic display dispensers
 - Acrylic slat wall adapters
@@ -60,7 +60,7 @@ We manufacture shopfitting and signage components for some of Australia's best-k
 Our shopfitting and signage products are manufactured from a range of high-quality materials:
 
 - **High-impact acrylics** — crystal-clear display components
-- **Polycarbonate** — tough, shatter-resistant signage
+- **[Polycarbonate](/materials/polycarbonate)** — tough, shatter-resistant signage
 - **MDF board** — structural display elements
 - **Aluminium composite materials** — lightweight sign panels
 - **Aluminium, steel, and stainless steel** — durable hardware and structural components

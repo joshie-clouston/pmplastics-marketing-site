@@ -54,7 +54,7 @@ This variant is designed for applications where glare reduction is important alo
 - **Fluorescent edge effect** — vibrant edge glow under ambient light
 - **Anti-reflective surface** reduces glare and unwanted reflections
 - **Modern colour selection** across five fluorescent hues
-- **All the quality and performance of Perspex acrylic** — fabrication and thermoforming compatible
+- **All the quality and performance of Perspex acrylic** — fabrication and [thermoforming](/services/plastic-thermo-forming) compatible
 
 ## Typical Applications
 

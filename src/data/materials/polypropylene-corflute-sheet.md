@@ -47,7 +47,7 @@ Polypropylene corflute sheet is a heavy-duty twin-wall extruded polypropylene sh
 
 ## Applications
 
-Polypropylene corflute sheet is widely used for construction hoarding, floor and surface protection during building works, reusable packaging and transit cases, agricultural applications, signage, and temporary partitions.
+Polypropylene corflute sheet is widely used for construction hoarding, floor and surface protection during building works, reusable packaging and transit cases, agricultural applications, [signage](/industries/shopfitting-signage), and temporary partitions.
 
 ## Cut-to-Size Service
 

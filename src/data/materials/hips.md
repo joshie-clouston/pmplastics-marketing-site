@@ -25,7 +25,7 @@ order: 45
 
 ## What Is HIPS?
 
-High Impact Polystyrene (HIPS) is an extensively used material in vacuum forming applications. It combines high impact resistance with excellent thermoformability, making it ideal for point-of-sale displays, packaging, and refrigerator linings.
+High Impact Polystyrene (HIPS) is an extensively used material in [vacuum forming](/services/cnc-vacuum-forming) applications. It combines high impact resistance with excellent thermoformability, making it ideal for point-of-sale displays, packaging, and refrigerator linings.
 
 ## Key Properties
 
@@ -54,7 +54,7 @@ High Impact Polystyrene (HIPS) is an extensively used material in vacuum forming
 
 ## Applications
 
-HIPS is widely used for point-of-sale displays, food packaging trays, signage, housewares and toys, bathroom cabinets, refrigerator crispers, and screen printing applications.
+HIPS is widely used for point-of-sale displays, food packaging trays, [signage](/industries/shopfitting-signage), housewares and toys, bathroom cabinets, refrigerator crispers, and screen printing applications.
 
 ## Cut-to-Size Service
 

@@ -23,7 +23,7 @@ order: 57
 
 ## What Are Skylight Diffusers?
 
-Skylight diffusers are translucent plastic panels designed to replace damaged or aged skylight glazing. Available in opal and prismatic finishes, they provide even light distribution while blocking harmful UV radiation and reducing heat gain.
+Skylight diffusers are translucent plastic panels designed to replace damaged or aged [skylight](/products/skylight-cover-replacements) glazing. Available in opal and prismatic finishes, they provide even light distribution while blocking harmful UV radiation and reducing heat gain.
 
 ## Key Properties
 
@@ -38,7 +38,7 @@ Skylight diffusers are translucent plastic panels designed to replace damaged or
 
 ### Opal Diffusers
 - Soft, uniform light diffusion
-- Available in acrylic and polycarbonate
+- Available in [acrylic](/materials/acrylic-sheet) and [polycarbonate](/materials/polycarbonate)
 - Ideal for residential and commercial skylights
 
 ### Prismatic Diffusers

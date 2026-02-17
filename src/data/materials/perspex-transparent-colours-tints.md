@@ -61,10 +61,10 @@ The range is backed by a 10-year guarantee and offers excellent UV and weather r
 - **Extensive colour range** — delicate tints, vivid primaries, and fresh pastels
 - **Excellent UV and weather resistance** for lasting colour performance
 - **Lightweight** — significantly lighter than glass
-- **Suitable for fabrication and thermoforming** using standard acrylic processing
+- **Suitable for fabrication and [thermoforming](/services/plastic-thermo-forming)** using standard acrylic processing
 - **Up to 17 times the impact resistance of glass**
 - **10-year guarantee**
 
 ## Typical Applications
 
-Perspex Transparent Colours and Tints is ideal for internal signage, point-of-sale displays, automotive and marine windows, transportation glazing, furniture, and architectural feature walls where colour and clarity must work together.
+Perspex Transparent Colours and Tints is ideal for internal signage, point-of-sale displays, [automotive](/industries/automotive) and [marine](/industries/marine) windows, transportation glazing, furniture, and architectural feature walls where colour and clarity must work together.
